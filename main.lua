@@ -152,15 +152,15 @@ Nitro.TextWrapped = true
 
 -- Scripts:
 
-local function YFIY_fake_script() -- X.function 
+local function ZGFI_fake_script() -- X.function 
 	local script = Instance.new('LocalScript', X)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(YFIY_fake_script)()
-local function IFXKMKB_fake_script() -- Minimise.function 
+coroutine.wrap(ZGFI_fake_script)()
+local function XIVFFQ_fake_script() -- Minimise.function 
 	local script = Instance.new('LocalScript', Minimise)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -170,8 +170,8 @@ local function IFXKMKB_fake_script() -- Minimise.function
 		script.Parent.Parent.Parent.Content.Visible = false
 	end)
 end
-coroutine.wrap(IFXKMKB_fake_script)()
-local function VUQON_fake_script() -- Name.LocalScript 
+coroutine.wrap(XIVFFQ_fake_script)()
+local function QSWJLJM_fake_script() -- Name.LocalScript 
 	local script = Instance.new('LocalScript', Name)
 
 	script.Parent.Parent.Visible = true
@@ -183,16 +183,16 @@ local function VUQON_fake_script() -- Name.LocalScript
 	script.Parent.Parent.Parent.main.Visible = true
 	
 end
-coroutine.wrap(VUQON_fake_script)()
-local function YHKLSJ_fake_script() -- main.drag 
+coroutine.wrap(QSWJLJM_fake_script)()
+local function ZKNXW_fake_script() -- main.drag 
 	local script = Instance.new('LocalScript', main)
 
 	script.Parent.Active = true	
 	script.Parent.Selectable = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(YHKLSJ_fake_script)()
-local function WYXKEO_fake_script() -- Maxamise.function 
+coroutine.wrap(ZKNXW_fake_script)()
+local function CVHIIGH_fake_script() -- Maxamise.function 
 	local script = Instance.new('LocalScript', Maxamise)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -200,10 +200,11 @@ local function WYXKEO_fake_script() -- Maxamise.function
 		script.Parent.Parent.Parent.top.Visible = true
 		script.Parent.Parent.Parent.Content.Visible = true
 		script.Parent.Parent.Parent.BackgroundTransparency = 0
+		
 	end)
 end
-coroutine.wrap(WYXKEO_fake_script)()
-local function YNNXI_fake_script() -- Jailbreak_2.Detect 
+coroutine.wrap(CVHIIGH_fake_script)()
+local function EJNGC_fake_script() -- Jailbreak_2.Detect 
 	local script = Instance.new('LocalScript', Jailbreak_2)
 
 	if game.PlaceId  == 606849621 then
@@ -212,8 +213,8 @@ local function YNNXI_fake_script() -- Jailbreak_2.Detect
 	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
 	end
 end
-coroutine.wrap(YNNXI_fake_script)()
-local function EKAMFZQ_fake_script() -- Autorob.tip 
+coroutine.wrap(EJNGC_fake_script)()
+local function KVQLDT_fake_script() -- Autorob.tip 
 	local script = Instance.new('LocalScript', Autorob)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -227,16 +228,16 @@ local function EKAMFZQ_fake_script() -- Autorob.tip
 		script.Parent.Text = "Auto Rob"
 	end)
 end
-coroutine.wrap(EKAMFZQ_fake_script)()
-local function CJMT_fake_script() -- Autorob.function 
+coroutine.wrap(KVQLDT_fake_script)()
+local function GZQTG_fake_script() -- Autorob.function 
 	local script = Instance.new('LocalScript', Autorob)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:GetObjects("rbxassetid://1461971147")[1].Source)()
 	end)
 end
-coroutine.wrap(CJMT_fake_script)()
-local function EWAVZRK_fake_script() -- Gui.tip 
+coroutine.wrap(GZQTG_fake_script)()
+local function REWSF_fake_script() -- Gui.tip 
 	local script = Instance.new('LocalScript', Gui)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -250,16 +251,16 @@ local function EWAVZRK_fake_script() -- Gui.tip
 		script.Parent.Text = "Nice Gui"
 	end)
 end
-coroutine.wrap(EWAVZRK_fake_script)()
-local function KCFVVXV_fake_script() -- Gui.function 
+coroutine.wrap(REWSF_fake_script)()
+local function IKYXJLF_fake_script() -- Gui.function 
 	local script = Instance.new('LocalScript', Gui)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/d0mRrqMS", true))()
 	end)
 end
-coroutine.wrap(KCFVVXV_fake_script)()
-local function KMCQS_fake_script() -- Nitro.tip 
+coroutine.wrap(IKYXJLF_fake_script)()
+local function TPKOI_fake_script() -- Nitro.tip 
 	local script = Instance.new('LocalScript', Nitro)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -273,8 +274,8 @@ local function KMCQS_fake_script() -- Nitro.tip
 		script.Parent.Text = "Infinite Nitro"
 	end)
 end
-coroutine.wrap(KMCQS_fake_script)()
-local function AMBJ_fake_script() -- Nitro.function 
+coroutine.wrap(TPKOI_fake_script)()
+local function ICIAN_fake_script() -- Nitro.function 
 	local script = Instance.new('LocalScript', Nitro)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -291,4 +292,4 @@ local function AMBJ_fake_script() -- Nitro.function
 	nitro:Destroy()
 	end)
 end
-coroutine.wrap(AMBJ_fake_script)()
+coroutine.wrap(ICIAN_fake_script)()
