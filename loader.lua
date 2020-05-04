@@ -40,7 +40,7 @@ ImageLabel.Image = "rbxassetid://4971457410"
 
 -- Scripts:
 
-local function IHRDI_fake_script() -- Status.LocalScript 
+local function DXBLLGR_fake_script() -- Status.LocalScript 
 	local script = Instance.new('LocalScript', Status)
 
 	script.Parent.Parent.Visible = true
@@ -51,4 +51,11 @@ local function IHRDI_fake_script() -- Status.LocalScript
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonxd09/HauntedHub/master/main.lua", true))()
 	script.Parent.Parent.Visible = false
 end
-coroutine.wrap(IHRDI_fake_script)()
+coroutine.wrap(DXBLLGR_fake_script)()
+local function VYLZV_fake_script() -- Status.Internet 
+	local script = Instance.new('LocalScript', Status)
+
+	wait(15)
+	script.Parent.Text = "Loading Failed. Check your internet connection and try again"
+end
+coroutine.wrap(VYLZV_fake_script)()
