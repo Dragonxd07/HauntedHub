@@ -1,1 +1,1648 @@
-local a=Instance.new("ScreenGui")local b=Instance.new("Frame")local c=Instance.new("Frame")local d=Instance.new("TextButton")local e=Instance.new("TextButton")local f=Instance.new("TextLabel")local g=Instance.new("Frame")local h=Instance.new("TextButton")local i=Instance.new("Frame")local j=Instance.new("Frame")local k=Instance.new("TextLabel")local l=Instance.new("TextButton")local m=Instance.new("Frame")local n=Instance.new("TextLabel")local o=Instance.new("TextButton")local p=Instance.new("Frame")local q=Instance.new("TextButton")local r=Instance.new("TextLabel")local s=Instance.new("Frame")local t=Instance.new("TextLabel")local u=Instance.new("TextButton")local v=Instance.new("TextButton")local w=Instance.new("TextButton")local x=Instance.new("Frame")local y=Instance.new("TextLabel")local z=Instance.new("TextButton")local A=Instance.new("TextButton")local B=Instance.new("TextButton")local C=Instance.new("Frame")local D=Instance.new("TextLabel")local E=Instance.new("TextButton")local F=Instance.new("TextButton")local G=Instance.new("TextButton")local H=Instance.new("TextButton")local I=Instance.new("TextButton")local J=Instance.new("Frame")local K=Instance.new("TextButton")local L=Instance.new("Frame")local M=Instance.new("Frame")local N=Instance.new("TextLabel")local O=Instance.new("Frame")local P=Instance.new("TextLabel")local Q=Instance.new("Frame")local R=Instance.new("TextLabel")local S=Instance.new("Frame")local T=Instance.new("TextLabel")local U=Instance.new("TextButton")local V=Instance.new("TextButton")local W=Instance.new("Frame")local X=Instance.new("TextLabel")local Y=Instance.new("TextButton")local Z=Instance.new("Frame")local _=Instance.new("TextLabel")local a0=Instance.new("Frame")local a1=Instance.new("Frame")local a2=Instance.new("TextLabel")local a3=Instance.new("Frame")local a4=Instance.new("TextButton")local a5=Instance.new("TextLabel")local a6=Instance.new("Frame")local a7=Instance.new("Frame")local a8=Instance.new("TextLabel")local a9=Instance.new("TextLabel")local aa=Instance.new("TextLabel")local ab=Instance.new("TextLabel")local ac=Instance.new("TextLabel")local ad=Instance.new("TextLabel")local ae=Instance.new("Frame")local af=Instance.new("TextButton")a.Name="Main"a.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui")a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;b.Name="main"b.Parent=a;b.BackgroundColor3=Color3.fromRGB(28,28,28)b.Position=UDim2.new(0.511897683,-454,0.452088475,-204)b.Size=UDim2.new(0,909,0,408)c.Name="top"c.Parent=b;c.BackgroundColor3=Color3.fromRGB(18,18,18)c.Position=UDim2.new(0.496149629,-454,0.5,-204)c.Size=UDim2.new(0,912,0,25)d.Name="X"d.Parent=c;d.BackgroundColor3=Color3.fromRGB(255,255,255)d.BackgroundTransparency=1.000;d.Position=UDim2.new(0.963696361,0,0,0)d.Size=UDim2.new(0,33,0,25)d.Font=Enum.Font.SourceSans;d.Text="X"d.TextColor3=Color3.fromRGB(255,0,4)d.TextSize=20.000;e.Name="Minimise"e.Parent=c;e.BackgroundColor3=Color3.fromRGB(255,255,255)e.BackgroundTransparency=1.000;e.Position=UDim2.new(0.927392721,0,0,0)e.Size=UDim2.new(0,33,0,25)e.Font=Enum.Font.SourceSans;e.Text="_"e.TextColor3=Color3.fromRGB(255,255,255)e.TextSize=20.000;f.Name="Name"f.Parent=c;f.BackgroundColor3=Color3.fromRGB(255,255,255)f.BackgroundTransparency=1.000;f.Position=UDim2.new(0.414741486,0,0,0)f.Size=UDim2.new(0,117,0,25)f.Font=Enum.Font.SourceSans;f.Text="Haunted Hub"f.TextColor3=Color3.fromRGB(255,255,255)f.TextSize=20.000;g.Name="small"g.Parent=b;g.BackgroundColor3=Color3.fromRGB(18,18,18)g.Position=UDim2.new(0.5,-454,0.5,-204)g.Size=UDim2.new(0,94,0,25)g.Visible=false;h.Name="Maxamise"h.Parent=g;h.BackgroundColor3=Color3.fromRGB(255,255,255)h.BackgroundTransparency=1.000;h.Position=UDim2.new(0.640158653,0,0,0)h.Size=UDim2.new(0,33,0,25)h.Font=Enum.Font.SourceSans;h.Text=">"h.TextColor3=Color3.fromRGB(255,255,255)h.TextSize=20.000;i.Name="Content"i.Parent=b;i.BackgroundColor3=Color3.fromRGB(28,28,28)i.Position=UDim2.new(-0.00110011001,0,0.0612745099,0)i.Size=UDim2.new(0,910,0,382)j.Name="Arsenal\\n"j.Parent=i;j.BackgroundColor3=Color3.fromRGB(28,28,28)j.Position=UDim2.new(0.679642737,0,0,0)j.Size=UDim2.new(0,137,0,383)k.Name="Name"k.Parent=j;k.BackgroundColor3=Color3.fromRGB(47,47,47)k.Position=UDim2.new(0,0,0.0313315913,0)k.Size=UDim2.new(0,131,0,30)k.Font=Enum.Font.SourceSans;k.Text="Arsenal"k.TextColor3=Color3.fromRGB(255,255,255)k.TextSize=20.000;l.Name="Gui"l.Parent=j;l.BackgroundColor3=Color3.fromRGB(47,47,47)l.BackgroundTransparency=0.400;l.Position=UDim2.new(0,0,0.164490849,0)l.Size=UDim2.new(0,131,0,29)l.Font=Enum.Font.SourceSans;l.Text="Gui"l.TextColor3=Color3.fromRGB(255,255,255)l.TextScaled=true;l.TextSize=15.000;l.TextWrapped=true;m.Name="Bloxburg"m.Parent=i;m.BackgroundColor3=Color3.fromRGB(28,28,28)m.Position=UDim2.new(0.507141232,0,0,0)m.Size=UDim2.new(0,137,0,383)n.Name="Name"n.Parent=m;n.BackgroundColor3=Color3.fromRGB(47,47,47)n.Position=UDim2.new(0,0,0.0313315913,0)n.Size=UDim2.new(0,131,0,30)n.Font=Enum.Font.SourceSans;n.Text="Bloxburg"n.TextColor3=Color3.fromRGB(255,255,255)n.TextSize=20.000;o.Name="Autofarm"o.Parent=m;o.BackgroundColor3=Color3.fromRGB(47,47,47)o.BackgroundTransparency=0.400;o.Position=UDim2.new(0,0,0.164490849,0)o.Size=UDim2.new(0,131,0,29)o.Font=Enum.Font.SourceSans;o.Text="Hairdresser Autofarm"o.TextColor3=Color3.fromRGB(255,255,255)o.TextScaled=true;o.TextSize=15.000;o.TextWrapped=true;p.Name="BubbleGum"p.Parent=i;p.BackgroundColor3=Color3.fromRGB(28,28,28)p.Position=UDim2.new(0.335797578,0,0,0)p.Size=UDim2.new(0,137,0,383)q.Name="Gui"q.Parent=p;q.BackgroundColor3=Color3.fromRGB(47,47,47)q.BackgroundTransparency=0.400;q.Position=UDim2.new(0,0,0.164490864,0)q.Size=UDim2.new(0,131,0,29)q.Font=Enum.Font.SourceSans;q.Text="Gui"q.TextColor3=Color3.fromRGB(255,255,255)q.TextScaled=true;q.TextSize=15.000;q.TextWrapped=true;r.Name="Name"r.Parent=p;r.BackgroundColor3=Color3.fromRGB(47,47,47)r.Position=UDim2.new(0,0,0.0313315913,0)r.Size=UDim2.new(0,131,0,30)r.Font=Enum.Font.SourceSans;r.Text="Bubble Gum Sim"r.TextColor3=Color3.fromRGB(255,255,255)r.TextSize=20.000;s.Name="Jailbreak"s.Parent=i;s.BackgroundColor3=Color3.fromRGB(28,28,28)s.Position=UDim2.new(-0.00110131572,0,0,0)s.Size=UDim2.new(0,137,0,383)t.Name="name"t.Parent=s;t.BackgroundColor3=Color3.fromRGB(47,47,47)t.Position=UDim2.new(0,0,0.0313315913,0)t.Size=UDim2.new(0,131,0,30)t.Font=Enum.Font.SourceSans;t.Text="Jailbreak"t.TextColor3=Color3.fromRGB(255,255,255)t.TextSize=20.000;u.Name="Autorob"u.Parent=s;u.BackgroundColor3=Color3.fromRGB(47,47,47)u.BackgroundTransparency=0.400;u.Position=UDim2.new(0,0,0.164490864,0)u.Size=UDim2.new(0,131,0,29)u.Font=Enum.Font.SourceSans;u.Text="(Broken) Auto Rob"u.TextColor3=Color3.fromRGB(255,255,255)u.TextScaled=true;u.TextSize=15.000;u.TextWrapped=true;v.Name="Gui"v.Parent=s;v.BackgroundColor3=Color3.fromRGB(47,47,47)v.BackgroundTransparency=0.400;v.Position=UDim2.new(0,0,0.297650129,0)v.Size=UDim2.new(0,131,0,29)v.Font=Enum.Font.SourceSans;v.Text="(Broken) Nice Gui"v.TextColor3=Color3.fromRGB(255,255,255)v.TextScaled=true;v.TextSize=15.000;v.TextWrapped=true;w.Name="Nitro"w.Parent=s;w.BackgroundColor3=Color3.fromRGB(47,47,47)w.BackgroundTransparency=0.400;w.Position=UDim2.new(0,0,0.428198427,0)w.Size=UDim2.new(0,131,0,29)w.Font=Enum.Font.SourceSans;w.Text="(Broken) Infinite Nitro"w.TextColor3=Color3.fromRGB(255,255,255)w.TextScaled=true;w.TextSize=15.000;w.TextWrapped=true;x.Name="PhantomFhorses"x.Parent=i;x.BackgroundColor3=Color3.fromRGB(28,28,28)x.Position=UDim2.new(0.165611446,0,0,0)x.Size=UDim2.new(0,137,0,383)y.Name="Name"y.Parent=x;y.BackgroundColor3=Color3.fromRGB(47,47,47)y.Position=UDim2.new(0,0,0.0313315913,0)y.Size=UDim2.new(0,131,0,30)y.Font=Enum.Font.SourceSans;y.Text="Phantom Forces"y.TextColor3=Color3.fromRGB(255,255,255)y.TextSize=20.000;z.Name="Aimbot"z.Parent=x;z.BackgroundColor3=Color3.fromRGB(47,47,47)z.BackgroundTransparency=0.400;z.Position=UDim2.new(0,0,0.164490864,0)z.Size=UDim2.new(0,131,0,29)z.Font=Enum.Font.SourceSans;z.Text="Aimbot"z.TextColor3=Color3.fromRGB(255,255,255)z.TextScaled=true;z.TextSize=15.000;z.TextWrapped=true;A.Name="PFmaster"A.Parent=x;A.BackgroundColor3=Color3.fromRGB(47,47,47)A.BackgroundTransparency=0.400;A.Position=UDim2.new(0,0,0.297650129,0)A.Size=UDim2.new(0,131,0,29)A.Font=Enum.Font.SourceSans;A.Text="PFmaster Gui"A.TextColor3=Color3.fromRGB(255,255,255)A.TextScaled=true;A.TextSize=15.000;A.TextWrapped=true;B.Name="esp"B.Parent=x;B.BackgroundColor3=Color3.fromRGB(47,47,47)B.BackgroundTransparency=0.400;B.Position=UDim2.new(0,0,0.428198427,0)B.Size=UDim2.new(0,131,0,29)B.Font=Enum.Font.SourceSans;B.Text="Esp"B.TextColor3=Color3.fromRGB(255,255,255)B.TextScaled=true;B.TextSize=15.000;B.TextWrapped=true;C.Name="general"C.Parent=i;C.BackgroundColor3=Color3.fromRGB(28,28,28)C.Position=UDim2.new(0.8486709,0,0,0)C.Size=UDim2.new(0,137,0,383)D.Name="Name"D.Parent=C;D.BackgroundColor3=Color3.fromRGB(47,47,47)D.Position=UDim2.new(0,0,0.0313315913,0)D.Size=UDim2.new(0,131,0,30)D.Font=Enum.Font.SourceSans;D.Text="General"D.TextColor3=Color3.fromRGB(255,255,255)D.TextSize=20.000;E.Name="Admin"E.Parent=C;E.BackgroundColor3=Color3.fromRGB(47,47,47)E.BackgroundTransparency=0.400;E.Position=UDim2.new(0,0,0.164490864,0)E.Size=UDim2.new(0,131,0,29)E.Font=Enum.Font.SourceSans;E.Text="Reviz Admin"E.TextColor3=Color3.fromRGB(255,255,255)E.TextScaled=true;E.TextSize=15.000;E.TextWrapped=true;F.Name="Dex"F.Parent=C;F.BackgroundColor3=Color3.fromRGB(47,47,47)F.BackgroundTransparency=0.400;F.Position=UDim2.new(0,0,0.297650129,0)F.Size=UDim2.new(0,131,0,29)F.Font=Enum.Font.SourceSans;F.Text="Dex"F.TextColor3=Color3.fromRGB(255,255,255)F.TextScaled=true;F.TextSize=15.000;F.TextWrapped=true;G.Name="Sniper"G.Parent=C;G.BackgroundColor3=Color3.fromRGB(47,47,47)G.BackgroundTransparency=0.400;G.Position=UDim2.new(0,0,0.428198427,0)G.Size=UDim2.new(0,131,0,29)G.Font=Enum.Font.SourceSans;G.Text="Stream Sniper"G.TextColor3=Color3.fromRGB(255,255,255)G.TextScaled=true;G.TextSize=15.000;G.TextWrapped=true;H.Name="About"H.Parent=C;H.BackgroundColor3=Color3.fromRGB(47,47,47)H.BackgroundTransparency=0.400;H.Position=UDim2.new(0,0,0.561357677,0)H.Size=UDim2.new(0,131,0,29)H.Font=Enum.Font.SourceSans;H.Text="About"H.TextColor3=Color3.fromRGB(255,255,255)H.TextScaled=true;H.TextSize=15.000;H.TextWrapped=true;I.Name="question"I.Parent=C;I.BackgroundColor3=Color3.fromRGB(47,47,47)I.BackgroundTransparency=0.400;I.Position=UDim2.new(0,0,0.697127938,0)I.Size=UDim2.new(0,131,0,29)I.Font=Enum.Font.SourceSans;I.Text="Why are some scripts not working?"I.TextColor3=Color3.fromRGB(255,255,255)I.TextScaled=true;I.TextSize=15.000;I.TextWrapped=true;J.Name="page"J.Parent=b;J.BackgroundColor3=Color3.fromRGB(18,18,18)J.Position=UDim2.new(-0.0021978023,0,0.937172711,0)J.Size=UDim2.new(0,912,0,25)K.Name="next"K.Parent=J;K.BackgroundColor3=Color3.fromRGB(255,255,255)K.BackgroundTransparency=1.000;K.Size=UDim2.new(0,912,0,24)K.Font=Enum.Font.SourceSans;K.Text="Next"K.TextColor3=Color3.fromRGB(255,255,255)K.TextSize=20.000;L.Name="Page2"L.Parent=b;L.BackgroundColor3=Color3.fromRGB(28,28,28)L.Position=UDim2.new(-0.00330033014,0,0.0612745099,0)L.Size=UDim2.new(0,912,0,357)L.Visible=false;M.Name="Blank"M.Parent=L;M.BackgroundColor3=Color3.fromRGB(28,28,28)M.Position=UDim2.new(0.679642797,0,0,0)M.Size=UDim2.new(0,137,0,357)N.Name="Name"N.Parent=M;N.BackgroundColor3=Color3.fromRGB(47,47,47)N.Position=UDim2.new(0,0,0.0313315913,0)N.Size=UDim2.new(0,131,0,30)N.Font=Enum.Font.SourceSans;N.Text="Coming Soon"N.TextColor3=Color3.fromRGB(255,255,255)N.TextSize=20.000;O.Name="Blank"O.Parent=L;O.BackgroundColor3=Color3.fromRGB(28,28,28)O.Position=UDim2.new(0.507141232,0,0,0)O.Size=UDim2.new(0,137,0,357)P.Name="Name"P.Parent=O;P.BackgroundColor3=Color3.fromRGB(47,47,47)P.Position=UDim2.new(0,0,0.0313315913,0)P.Size=UDim2.new(0,131,0,30)P.Font=Enum.Font.SourceSans;P.Text="Coming Soon"P.TextColor3=Color3.fromRGB(255,255,255)P.TextSize=20.000;Q.Name="Blank"Q.Parent=L;Q.BackgroundColor3=Color3.fromRGB(28,28,28)Q.Position=UDim2.new(0.335797638,0,0,0)Q.Size=UDim2.new(0,137,0,357)R.Name="Name"R.Parent=Q;R.BackgroundColor3=Color3.fromRGB(47,47,47)R.Position=UDim2.new(0,0,0.0313315913,0)R.Size=UDim2.new(0,131,0,30)R.Font=Enum.Font.SourceSans;R.Text="Coming Soon"R.TextColor3=Color3.fromRGB(255,255,255)R.TextSize=20.000;S.Name="MM2"S.Parent=L;S.BackgroundColor3=Color3.fromRGB(28,28,28)S.Position=UDim2.new(-0.00110130978,0,0,0)S.Size=UDim2.new(0,137,0,357)T.Name="name"T.Parent=S;T.BackgroundColor3=Color3.fromRGB(47,47,47)T.Position=UDim2.new(0,0,0.0313315913,0)T.Size=UDim2.new(0,131,0,30)T.Font=Enum.Font.SourceSans;T.Text="Murder Mystery 2"T.TextColor3=Color3.fromRGB(255,255,255)T.TextSize=20.000;U.Name="Gui"U.Parent=S;U.BackgroundColor3=Color3.fromRGB(47,47,47)U.BackgroundTransparency=0.400;U.Position=UDim2.new(0,0,0.164490864,0)U.Size=UDim2.new(0,131,0,29)U.Font=Enum.Font.SourceSans;U.Text="Gui"U.TextColor3=Color3.fromRGB(255,255,255)U.TextScaled=true;U.TextSize=15.000;U.TextWrapped=true;V.Name="Knife"V.Parent=S;V.BackgroundColor3=Color3.fromRGB(47,47,47)V.BackgroundTransparency=0.400;V.Position=UDim2.new(0,0,0.297650129,0)V.Size=UDim2.new(0,131,0,29)V.Font=Enum.Font.SourceSans;V.Text="Xbox Knife"V.TextColor3=Color3.fromRGB(255,255,255)V.TextScaled=true;V.TextSize=15.000;V.TextWrapped=true;W.Name="Speedrun"W.Parent=L;W.BackgroundColor3=Color3.fromRGB(28,28,28)W.Position=UDim2.new(0.165611461,0,0,0)W.Size=UDim2.new(0,137,0,357)X.Name="Name"X.Parent=W;X.BackgroundColor3=Color3.fromRGB(47,47,47)X.Position=UDim2.new(0,0,0.0313315913,0)X.Size=UDim2.new(0,131,0,30)X.Font=Enum.Font.SourceSans;X.Text="Speed Run 4"X.TextColor3=Color3.fromRGB(255,255,255)X.TextSize=20.000;Y.Name="Autofarm"Y.Parent=W;Y.BackgroundColor3=Color3.fromRGB(47,47,47)Y.BackgroundTransparency=0.400;Y.Position=UDim2.new(0,0,0.164490864,0)Y.Size=UDim2.new(0,131,0,29)Y.Font=Enum.Font.SourceSans;Y.Text="(Exclusive) Autofarm"Y.TextColor3=Color3.fromRGB(255,255,255)Y.TextScaled=true;Y.TextSize=15.000;Y.TextWrapped=true;Z.Name="Blank"Z.Parent=L;Z.BackgroundColor3=Color3.fromRGB(28,28,28)Z.Position=UDim2.new(0.84867084,0,0,0)Z.Size=UDim2.new(0,137,0,357)_.Name="Name"_.Parent=Z;_.BackgroundColor3=Color3.fromRGB(47,47,47)_.Position=UDim2.new(0,0,0.0313315913,0)_.Size=UDim2.new(0,131,0,30)_.Font=Enum.Font.SourceSans;_.Text="Coming Soon"_.TextColor3=Color3.fromRGB(255,255,255)_.TextSize=20.000;a0.Name="About"a0.Parent=a;a0.BackgroundColor3=Color3.fromRGB(47,47,47)a0.Position=UDim2.new(0.241522908,0,0.232186735,0)a0.Size=UDim2.new(0,275,0,383)a0.Visible=false;a1.Name="Top"a1.Parent=a0;a1.BackgroundColor3=Color3.fromRGB(94,94,94)a1.Position=UDim2.new(-0.00151857734,0,-0.000189244747,0)a1.Size=UDim2.new(0,275,0,25)a2.Name="Name"a2.Parent=a1;a2.BackgroundColor3=Color3.fromRGB(255,255,255)a2.BackgroundTransparency=1.000;a2.Position=UDim2.new(0.286052614,0,0,0)a2.Size=UDim2.new(0,117,0,25)a2.Font=Enum.Font.SourceSans;a2.Text="Haunted Hub"a2.TextColor3=Color3.fromRGB(255,255,255)a2.TextSize=20.000;a3.Name="Bottom"a3.Parent=a0;a3.BackgroundColor3=Color3.fromRGB(94,94,94)a3.Position=UDim2.new(-0.00515494123,0,0.934536576,0)a3.Size=UDim2.new(0,275,0,25)a4.Name="Ok"a4.Parent=a3;a4.BackgroundColor3=Color3.fromRGB(94,94,94)a4.BackgroundTransparency=1.000;a4.Position=UDim2.new(0.00697310036,0,0,0)a4.Size=UDim2.new(0,274,0,25)a4.Font=Enum.Font.SourceSans;a4.Text="I understand"a4.TextColor3=Color3.fromRGB(255,255,255)a4.TextScaled=true;a4.TextSize=15.000;a4.TextWrapped=true;a5.Parent=a0;a5.BackgroundColor3=Color3.fromRGB(255,255,255)a5.BackgroundTransparency=1.000;a5.Position=UDim2.new(0.00363636366,0,0.0626631826,0)a5.Size=UDim2.new(0,272,0,333)a5.Font=Enum.Font.SourceSans;a5.Text="Haunted Hub is not responsible for any bans or your behavior. Scripting can get you banned and you might loose all your robux and items. Be careful.              Created by Dragonxd09#5612\\n"a5.TextColor3=Color3.fromRGB(255,255,255)a5.TextScaled=true;a5.TextSize=14.000;a5.TextWrapped=true;a6.Name="Question"a6.Parent=a;a6.BackgroundColor3=Color3.fromRGB(47,47,47)a6.Position=UDim2.new(0.5,-136,0.5,-136)a6.Size=UDim2.new(0,272,0,273)a6.Visible=false;a7.Parent=a6;a7.BackgroundColor3=Color3.fromRGB(94,94,94)a7.Size=UDim2.new(0,272,0,23)a8.Parent=a7;a8.BackgroundColor3=Color3.fromRGB(255,255,255)a8.BackgroundTransparency=1.000;a8.Size=UDim2.new(0,272,0,22)a8.Font=Enum.Font.SourceSans;a8.Text="Why are some scripts not working?"a8.TextColor3=Color3.fromRGB(255,255,255)a8.TextScaled=true;a8.TextSize=14.000;a8.TextWrapped=true;a9.Parent=a7;a9.BackgroundColor3=Color3.fromRGB(255,255,255)a9.BackgroundTransparency=1.000;a9.Position=UDim2.new(0,0,2.347826,0)a9.Size=UDim2.new(0,272,0,22)a9.Font=Enum.Font.SourceSans;a9.Text="1. Some scripts are for paid exploits only"a9.TextColor3=Color3.fromRGB(255,255,255)a9.TextScaled=true;a9.TextSize=14.000;a9.TextWrapped=true;aa.Parent=a7;aa.BackgroundColor3=Color3.fromRGB(255,255,255)aa.BackgroundTransparency=1.000;aa.Position=UDim2.new(-0.0036764706,0,3.86956501,0)aa.Size=UDim2.new(0,272,0,22)aa.Font=Enum.Font.SourceSans;aa.Text="2. The script was deleted or no longer exists"aa.TextColor3=Color3.fromRGB(255,255,255)aa.TextScaled=true;aa.TextSize=14.000;aa.TextWrapped=true;ab.Parent=a7;ab.BackgroundColor3=Color3.fromRGB(255,255,255)ab.BackgroundTransparency=1.000;ab.Position=UDim2.new(-0.0036764706,0,5.43478251,0)ab.Size=UDim2.new(0,272,0,22)ab.Font=Enum.Font.SourceSans;ab.Text="3. The script was patched"ab.TextColor3=Color3.fromRGB(255,255,255)ab.TextScaled=true;ab.TextSize=14.000;ab.TextWrapped=true;ac.Parent=a7;ac.BackgroundColor3=Color3.fromRGB(255,255,255)ac.BackgroundTransparency=1.000;ac.Position=UDim2.new(0,0,7.04347801,0)ac.Size=UDim2.new(0,272,0,22)ac.Font=Enum.Font.SourceSans;ac.Text="4. Your antivirus blocked the script from running"ac.TextColor3=Color3.fromRGB(255,255,255)ac.TextScaled=true;ac.TextSize=14.000;ac.TextWrapped=true;ad.Parent=a7;ad.BackgroundColor3=Color3.fromRGB(255,255,255)ad.BackgroundTransparency=1.000;ad.Position=UDim2.new(0,0,8.347826,0)ad.Size=UDim2.new(0,272,0,22)ad.Font=Enum.Font.SourceSans;ad.Text="5. unknown reason"ad.TextColor3=Color3.fromRGB(255,255,255)ad.TextScaled=true;ad.TextSize=14.000;ad.TextWrapped=true;ae.Parent=a6;ae.BackgroundColor3=Color3.fromRGB(94,94,94)ae.Position=UDim2.new(-0.0036764706,0,0.915750921,0)ae.Size=UDim2.new(0,272,0,23)af.Parent=ae;af.BackgroundColor3=Color3.fromRGB(255,255,255)af.BackgroundTransparency=1.000;af.Size=UDim2.new(0,273,0,23)af.Font=Enum.Font.SourceSans;af.Text="OK"af.TextColor3=Color3.fromRGB(255,255,255)af.TextScaled=true;af.TextSize=14.000;af.TextWrapped=true;local function ag()local ah=Instance.new('LocalScript',d)ah.Parent.MouseButton1Click:Connect(function()ah.Parent.Parent.Parent.Parent:Destroy()end)end;coroutine.wrap(ag)()local function ai()local ah=Instance.new('LocalScript',e)ah.Parent.MouseButton1Click:Connect(function()ah.Parent.Parent.Parent.small.Visible=true;ah.Parent.Parent.Visible=false;ah.Parent.Parent.Parent.BackgroundTransparency=1;ah.Parent.Parent.Parent.Content.Visible=false;ah.Parent.Parent.Parent.page.Visible=false;ah.Parent.Parent.Parent.Page2.Visible=false end)end;coroutine.wrap(ai)()local function aj()local ah=Instance.new('LocalScript',b)ah.Parent.Active=true;ah.Parent.Selectable=true;ah.Parent.Draggable=true end;coroutine.wrap(aj)()local function ak()local ah=Instance.new('LocalScript',h)ah.Parent.MouseButton1Click:Connect(function()ah.Parent.Parent.Visible=false;ah.Parent.Parent.Parent.top.Visible=true;ah.Parent.Parent.Parent.Content.Visible=true;ah.Parent.Parent.Parent.BackgroundTransparency=0;ah.Parent.Parent.Parent.page.Visible=true;ah.Parent.Parent.Parent.page.next.Text="Next"end)end;coroutine.wrap(ak)()local function al()local ah=Instance.new('LocalScript',k)if game.PlaceId==286090429 then ah.Parent.TextColor3=Color3.new(0,255,0)else ah.Parent.TextColor3=Color3.new(255,255,255)end end;coroutine.wrap(al)()local function am()local ah=Instance.new('LocalScript',l)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="A gui with all the functions you would need"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Gui"end)end;coroutine.wrap(am)()local function an()local ah=Instance.new('LocalScript',l)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet('https://pastebin.com/raw/T3fzg7tm',true))()end)end;coroutine.wrap(an)()local function ao()local ah=Instance.new('LocalScript',n)if game.PlaceId==185655149 then ah.Parent.TextColor3=Color3.new(0,255,0)else ah.Parent.TextColor3=Color3.new(255,255,255)end end;coroutine.wrap(ao)()local function ap()local ah=Instance.new('LocalScript',o)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="A easy way to make money"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Hairdresser Autofarm"end)end;coroutine.wrap(ap)()local function aq()local ah=Instance.new('LocalScript',o)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://pastebin.com/raw/izp4DJ9m",true))()end)end;coroutine.wrap(aq)()local function ar()local ah=Instance.new('LocalScript',q)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="The best gui I could find"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Gui"end)end;coroutine.wrap(ar)()local function as()local ah=Instance.new('LocalScript',q)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("http://zerotwo.ga/script/game/",true))()end)end;coroutine.wrap(as)()local function at()local ah=Instance.new('LocalScript',r)if game.PlaceId==2512643572 then ah.Parent.TextColor3=Color3.new(0,255,0)else ah.Parent.TextColor3=Color3.new(255,255,255)end end;coroutine.wrap(at)()local function au()local ah=Instance.new('LocalScript',t)if game.PlaceId==606849621 then ah.Parent.TextColor3=Color3.new(0,255,0)else ah.Parent.TextColor3=Color3.new(255,255,255)end end;coroutine.wrap(au)()local function av()local ah=Instance.new('LocalScript',u)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="A Easy way to make money in jailbreak"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="(Broken) Auto Rob"end)end;coroutine.wrap(av)()local function aw()local ah=Instance.new('LocalScript',u)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:GetObjects("rbxassetid://1461971147")[1].Source)()end)end;coroutine.wrap(aw)()local function ax()local ah=Instance.new('LocalScript',v)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="No longer works"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="(Broken) Nice Gui"end)end;coroutine.wrap(ax)()local function ay()local ah=Instance.new('LocalScript',v)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://pastebin.com/raw/VFeL159y",true))()end)end;coroutine.wrap(ay)()local function az()local ah=Instance.new('LocalScript',w)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="No longer works"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="(Broken) Infinite Nitro"end)end;coroutine.wrap(az)()local function aA()local ah=Instance.new('LocalScript',w)ah.Parent.MouseButton1Click:Connect(function()local aB=game:GetService("Players").LocalPlayer;local aC=aB:WaitForChild("PlayerGui")local aD=aC.MainGui.Nitro;local aE=aC.ProductGui.Nitro;local aF=aC.ProductGui;aD.Name="Complete"aE:Destroy()local aG=Instance.new("Model",aF)aG.Name="Nitro"aD:Destroy()end)end;coroutine.wrap(aA)()local function aH()local ah=Instance.new('LocalScript',y)if game.PlaceId==292439477 then ah.Parent.TextColor3=Color3.new(0,255,0)else ah.Parent.TextColor3=Color3.new(255,255,255)end end;coroutine.wrap(aH)()local function aI()local ah=Instance.new('LocalScript',z)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="Locks your scope on to players heads, easy kills"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Aimbot"end)end;coroutine.wrap(aI)()local function aJ()local ah=Instance.new('LocalScript',z)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://pastebin.com/raw/9TkT32AN/",true))()end)end;coroutine.wrap(aJ)()local function aK()local ah=Instance.new('LocalScript',A)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="Nice gui with helpfull functions"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="PFmaster Gui"end)end;coroutine.wrap(aK)()local function aL()local ah=Instance.new('LocalScript',A)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://pastebin.com/raw/URSTqphn"))()end)end;coroutine.wrap(aL)()local function aM()local ah=Instance.new('LocalScript',B)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="Allows you to see other players through walls"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Esp"end)end;coroutine.wrap(aM)()local function aN()local ah=Instance.new('LocalScript',B)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://pastebin.com/raw/x4Q2pJYG",true))()end)end;coroutine.wrap(aN)()local function aO()local ah=Instance.new('LocalScript',E)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="My favorite admin script"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Reviz Admin"end)end;coroutine.wrap(aO)()local function aP()local ah=Instance.new('LocalScript',E)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS",true))()end)end;coroutine.wrap(aP)()local function aQ()local ah=Instance.new('LocalScript',F)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="Lets you view a game's files and scripts"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Dex"end)end;coroutine.wrap(aQ)()local function aR()local ah=Instance.new('LocalScript',F)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer%20V2.txt",true))()end)end;coroutine.wrap(aR)()local function aS()local ah=Instance.new('LocalScript',G)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="Synapse X Stream Sniper"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Stream Sniper"end)end;coroutine.wrap(aS)()local function aT()local ah=Instance.new('LocalScript',G)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/syngp/SynapseX/master/Synapse%20Scripts/StreamSniper.lua",true))()end)end;coroutine.wrap(aT)()local function aU()local ah=Instance.new('LocalScript',H)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="Haunted Hub Beta"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="About"end)end;coroutine.wrap(aU)()local function aV()local ah=Instance.new('LocalScript',H)ah.Parent.MouseButton1Click:Connect(function()ah.Parent.Parent.Parent.Parent.Parent.About.Visible=true;ah.Parent.Parent.Parent.Parent.Parent.main.Visible=false end)end;coroutine.wrap(aV)()local function aW()local ah=Instance.new('LocalScript',I)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="Click for answer"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Why are some scripts not working?"end)end;coroutine.wrap(aW)()local function aX()local ah=Instance.new('LocalScript',I)ah.Parent.MouseButton1Click:Connect(function()ah.Parent.Parent.Parent.Parent.Visible=false;ah.Parent.Parent.Parent.Parent.Parent.Question.Visible=true end)end;coroutine.wrap(aX)()local function aY()local ah=Instance.new('LocalScript',K)ah.Parent.MouseButton1Click:Connect(function()if ah.Parent.Text=="Next"then ah.Parent.Parent.Parent.Content.Visible=false;ah.Parent.Parent.Parent.Page2.Visible=true;ah.Parent.Text="Back"else ah.Parent.Parent.Parent.Content.Visible=true;ah.Parent.Parent.Parent.Page2.Visible=false;ah.Parent.Text="Next"end end)end;coroutine.wrap(aY)()local function aZ()local ah=Instance.new('LocalScript',T)if game.PlaceId==142823291 then ah.Parent.TextColor3=Color3.new(0,255,0)else ah.Parent.TextColor3=Color3.new(255,255,255)end end;coroutine.wrap(aZ)()local function a_()local ah=Instance.new('LocalScript',U)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="A good gui for Murder Mystery 2"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Gui"end)end;coroutine.wrap(a_)()local function b0()local ah=Instance.new('LocalScript',U)ah.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://pastebin.com/raw/CVjjtGkF",true))()end)end;coroutine.wrap(b0)()local function b1()local ah=Instance.new('LocalScript',V)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="This script will give you a xbox knife"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="Xbox Knife"end)end;coroutine.wrap(b1)()local function b2()local ah=Instance.new('LocalScript',V)ah.Parent.MouseButton1Click:Connect(function()local b3=game:GetService("ReplicatedStorage").IsXbox;b3:FireServer(A_1)end)end;coroutine.wrap(b2)()local function b4()local ah=Instance.new('LocalScript',X)if game.PlaceId==183364845 then ah.Parent.TextColor3=Color3.new(0,255,0)else ah.Parent.TextColor3=Color3.new(255,255,255)end end;coroutine.wrap(b4)()local function b5()local ah=Instance.new('LocalScript',Y)ah.Parent.MouseEnter:Connect(function()ah.Parent.Text="Made by me so its only in haunted hub"end)ah.Parent.MouseLeave:Connect(function()ah.Parent.Text="(Exclusive) Autofarm"end)end;coroutine.wrap(b5)()local function b6()local ah=Instance.new('LocalScript',Y)ah.Parent.MouseButton1Click:Connect(function()local b7=Instance.new("ScreenGui")local a7=Instance.new("Frame")local a5=Instance.new("TextLabel")local a8=Instance.new("TextLabel")local b8=Instance.new("TextButton")local b9=Instance.new("TextLabel")local a9=Instance.new("TextLabel")local ba=Instance.new("TextLabel")local bb=Instance.new("TextLabel")local bc=Instance.new("TextButton")local bd=Instance.new("TextButton")local be=Instance.new("TextButton")local bf=Instance.new("TextButton")b7.Name="speedrun"b7.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui")b7.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;b7.ResetOnSpawn=false;a7.Parent=b7;a7.BackgroundColor3=Color3.fromRGB(47,47,47)a7.BackgroundTransparency=0.200;a7.Position=UDim2.new(0.5,-328,0.5,-110)a7.Size=UDim2.new(0,368,0,158)a5.Parent=a7;a5.BackgroundColor3=Color3.fromRGB(255,255,255)a5.BackgroundTransparency=1.000;a5.Size=UDim2.new(0,368,0,43)a5.Font=Enum.Font.SourceSans;a5.Text="Speed Run 4  Auto Complete    By: Dragonxd09#5612"a5.TextColor3=Color3.fromRGB(255,255,255)a5.TextSize=20.000;a8.Parent=a7;a8.BackgroundColor3=Color3.fromRGB(255,255,255)a8.BackgroundTransparency=1.000;a8.Position=UDim2.new(0,0,0.271639705,0)a8.Size=UDim2.new(0,229,0,43)a8.Font=Enum.Font.SourceSans;a8.Text="How many times to run:"a8.TextColor3=Color3.fromRGB(255,255,255)a8.TextSize=20.000;b8.Name="start"b8.Parent=a7;b8.BackgroundColor3=Color3.fromRGB(255,255,255)b8.BackgroundTransparency=1.000;b8.Position=UDim2.new(0,0,0.726833701,0)b8.Size=UDim2.new(0,124,0,43)b8.Font=Enum.Font.SourceSans;b8.Text="Start"b8.TextColor3=Color3.fromRGB(0,255,38)b8.TextSize=20.000;b9.Name="min"b9.Parent=a7;b9.BackgroundColor3=Color3.fromRGB(255,255,255)b9.BackgroundTransparency=1.000;b9.Position=UDim2.new(0,0,0.543791592,0)b9.Size=UDim2.new(0,139,0,43)b9.Font=Enum.Font.SourceSans;b9.Text="0"b9.TextColor3=Color3.fromRGB(255,255,255)b9.TextSize=20.000;a9.Name="/"a9.Parent=a7;a9.BackgroundColor3=Color3.fromRGB(255,255,255)a9.BackgroundTransparency=1.000;a9.Position=UDim2.new(0.309782594,0,0.543791592,0)a9.Size=UDim2.new(0,139,0,43)a9.Font=Enum.Font.SourceSans;a9.Text="/"a9.TextColor3=Color3.fromRGB(255,255,255)a9.TextSize=20.000;ba.Name="Maxnum"ba.Parent=a7;ba.BackgroundColor3=Color3.fromRGB(255,255,255)ba.BackgroundTransparency=1.000;ba.Position=UDim2.new(0.622282624,0,0.543791592,0)ba.Size=UDim2.new(0,139,0,43)ba.Font=Enum.Font.SourceSans;ba.Text=""ba.TextColor3=Color3.fromRGB(255,255,255)ba.TextSize=20.000;bb.Name="num"bb.Parent=a7;bb.BackgroundColor3=Color3.fromRGB(255,255,255)bb.BackgroundTransparency=1.000;bb.Position=UDim2.new(0.652173936,0,0.341772139,0)bb.Size=UDim2.new(0,102,0,25)bb.Font=Enum.Font.SourceSans;bb.Text="1"bb.TextColor3=Color3.fromRGB(255,255,255)bb.TextScaled=true;bb.TextSize=14.000;bb.TextWrapped=true;bc.Name="minus"bc.Parent=a7;bc.BackgroundColor3=Color3.fromRGB(255,255,255)bc.BackgroundTransparency=1.000;bc.Position=UDim2.new(0.554347813,0,0.322784811,0)bc.Size=UDim2.new(0,55,0,26)bc.Font=Enum.Font.SourceSans;bc.Text="-"bc.TextColor3=Color3.fromRGB(255,255,255)bc.TextScaled=true;bc.TextSize=14.000;bc.TextStrokeColor3=Color3.fromRGB(255,0,0)bc.TextWrapped=true;bd.Name="plus"bd.Parent=a7;bd.BackgroundColor3=Color3.fromRGB(255,255,255)bd.BackgroundTransparency=1.000;bd.Position=UDim2.new(0.875,0,0.341772139,0)bd.Size=UDim2.new(0,46,0,26)bd.Font=Enum.Font.SourceSans;bd.Text="+"bd.TextColor3=Color3.fromRGB(255,255,255)bd.TextScaled=true;bd.TextSize=14.000;bd.TextStrokeColor3=Color3.fromRGB(255,0,0)bd.TextWrapped=true;be.Name="Reset"be.Parent=a7;be.BackgroundColor3=Color3.fromRGB(255,255,255)be.BackgroundTransparency=1.000;be.Position=UDim2.new(0.337628901,0,0.726833701,0)be.Size=UDim2.new(0,115,0,43)be.Font=Enum.Font.SourceSans;be.Text="Reset"be.TextColor3=Color3.fromRGB(255,255,255)be.TextSize=20.000;bf.Name="inf"bf.Parent=a7;bf.BackgroundColor3=Color3.fromRGB(255,255,255)bf.BackgroundTransparency=1.000;bf.Position=UDim2.new(0.685454965,0,0.726833701,0)bf.Size=UDim2.new(0,115,0,43)bf.Font=Enum.Font.SourceSans;bf.Text="Infinate"bf.TextColor3=Color3.fromRGB(255,255,255)bf.TextSize=20.000;local function bg()local ah=Instance.new('LocalScript',a7)local bh=0;local bi=0;local bc=ah.Parent.minus;local bd=ah.Parent.plus;local bj=ah.Parent.Maxnum;bh=bh+1;bj.Text=bh;ah.Parent.Parent.ResetOnSpawn=false;ah.Parent.Reset.MouseButton1Click:Connect(function()bh=0;bh=bh+1;bi=0;ah.Parent.num.Text=bh;bj.Text=bh;ah.Parent.min.Text=bi end)ah.Parent.inf.MouseButton1Click:Connect(function()bh=0;bh=bh+99999999999;ah.Parent.num.Text=bh;bj.Text=bh;ah.Parent.min.Text=bi end)bd.MouseButton1Click:Connect(function()bh=bh+1;print(bh)ah.Parent.num.Text=bh;bj.Text=bh;ah.Parent.min.Text=bi end)bc.MouseButton1Click:Connect(function()bh=bh-1;print(bh)if bh==0 then bh=1;print(bh)end;ah.Parent.num.Text=bh;bj.Text=bh end)ah.Parent.start.MouseButton1Click:Connect(function()while bi<bh do game.Players.LocalPlayer.Character:MoveTo(Vector3.new(106.252197,133.659912,-543.064026))wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 1")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 1","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 2")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 2","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 3")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 3","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 4")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 4","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 5")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 5","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 6")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 6","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 7")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 7","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 8")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 8","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 9")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 9","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 10")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 10","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 11")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 11","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 12")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 12","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 13")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 13","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 14")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 14","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 15")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 15","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 16")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 16","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 17")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 17","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 18")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 18","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 19")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 19","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 20")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 20","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 21")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 21","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 22")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 22","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 23")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 23","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 24")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 24","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 25")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 25","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 26")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 26","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 27")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 27","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 28")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 28","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 29")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 29","",true)wait(0.1)game:GetService("ReplicatedStorage").GotStar:FireServer("Level 30")game:GetService("ReplicatedStorage").BeatLevel:FireServer(25,"Level 30","",true)game:GetService("ReplicatedStorage").SetLevel:FireServer(0)bi=bi+1;ah.Parent.min.Text=bi end end)end;coroutine.wrap(bg)()end)end;coroutine.wrap(b6)()local function bk()local ah=Instance.new('LocalScript',a4)ah.Parent.MouseButton1Click:Connect(function()ah.Parent.Parent.Parent.Parent.main.Visible=true;ah.Parent.Parent.Parent.Parent.About.Visible=false end)end;coroutine.wrap(bk)()local function bl()local ah=Instance.new('LocalScript',a)ah.Parent.ResetOnSpawn=false end;coroutine.wrap(bl)()local function bm()local ah=Instance.new('LocalScript',af)ah.Parent.MouseButton1Click:Connect(function()ah.Parent.Parent.Parent.Visible=false;ah.Parent.Parent.Parent.Parent.main.Visible=true end)end;coroutine.wrap(bm)()local function bn()local ah=Instance.new('LocalScript',a)ah.Parent.Parent.Loading:Destroy()end;coroutine.wrap(bn)()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Main = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local top = Instance.new("Frame")
+local X = Instance.new("TextButton")
+local Minimise = Instance.new("TextButton")
+local Name = Instance.new("TextLabel")
+local small = Instance.new("Frame")
+local Maxamise = Instance.new("TextButton")
+local Content = Instance.new("Frame")
+local Arsenal = Instance.new("Frame")
+local Name_2 = Instance.new("TextLabel")
+local Gui = Instance.new("TextButton")
+local Bloxburg = Instance.new("Frame")
+local Name_3 = Instance.new("TextLabel")
+local Autofarm = Instance.new("TextButton")
+local BubbleGum = Instance.new("Frame")
+local Gui_2 = Instance.new("TextButton")
+local Name_4 = Instance.new("TextLabel")
+local Jailbreak = Instance.new("Frame")
+local name = Instance.new("TextLabel")
+local Autorob = Instance.new("TextButton")
+local Gui_3 = Instance.new("TextButton")
+local Nitro = Instance.new("TextButton")
+local PhantomFhorses = Instance.new("Frame")
+local Name_5 = Instance.new("TextLabel")
+local Aimbot = Instance.new("TextButton")
+local PFmaster = Instance.new("TextButton")
+local esp = Instance.new("TextButton")
+local general = Instance.new("Frame")
+local Name_6 = Instance.new("TextLabel")
+local Admin = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
+local Sniper = Instance.new("TextButton")
+local About = Instance.new("TextButton")
+local question = Instance.new("TextButton")
+local page = Instance.new("Frame")
+local next = Instance.new("TextButton")
+local Page2 = Instance.new("Frame")
+local Blank = Instance.new("Frame")
+local Name_7 = Instance.new("TextLabel")
+local Blank_2 = Instance.new("Frame")
+local Name_8 = Instance.new("TextLabel")
+local Blank_3 = Instance.new("Frame")
+local Name_9 = Instance.new("TextLabel")
+local MM2 = Instance.new("Frame")
+local name_2 = Instance.new("TextLabel")
+local Gui_4 = Instance.new("TextButton")
+local Knife = Instance.new("TextButton")
+local Speedrun = Instance.new("Frame")
+local Name_10 = Instance.new("TextLabel")
+local Autofarm_2 = Instance.new("TextButton")
+local Blank_4 = Instance.new("Frame")
+local Name_11 = Instance.new("TextLabel")
+local About_2 = Instance.new("Frame")
+local Top = Instance.new("Frame")
+local Name_12 = Instance.new("TextLabel")
+local Bottom = Instance.new("Frame")
+local Ok = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Question = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = Main
+main.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+main.Position = UDim2.new(0.511897683, -454, 0.452088475, -204)
+main.Size = UDim2.new(0, 909, 0, 408)
+
+top.Name = "top"
+top.Parent = main
+top.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+top.Position = UDim2.new(0.496149629, -454, 0.5, -204)
+top.Size = UDim2.new(0, 912, 0, 25)
+
+X.Name = "X"
+X.Parent = top
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BackgroundTransparency = 1.000
+X.Position = UDim2.new(0.963696361, 0, 0, 0)
+X.Size = UDim2.new(0, 33, 0, 25)
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 0, 4)
+X.TextSize = 20.000
+
+Minimise.Name = "Minimise"
+Minimise.Parent = top
+Minimise.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimise.BackgroundTransparency = 1.000
+Minimise.Position = UDim2.new(0.927392721, 0, 0, 0)
+Minimise.Size = UDim2.new(0, 33, 0, 25)
+Minimise.Font = Enum.Font.SourceSans
+Minimise.Text = "_"
+Minimise.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimise.TextSize = 20.000
+
+Name.Name = "Name"
+Name.Parent = top
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.Position = UDim2.new(0.414741486, 0, 0, 0)
+Name.Size = UDim2.new(0, 117, 0, 25)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "Haunted Hub"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextSize = 20.000
+
+small.Name = "small"
+small.Parent = main
+small.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+small.Position = UDim2.new(0.5, -454, 0.5, -204)
+small.Size = UDim2.new(0, 94, 0, 25)
+small.Visible = false
+
+Maxamise.Name = "Maxamise"
+Maxamise.Parent = small
+Maxamise.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Maxamise.BackgroundTransparency = 1.000
+Maxamise.Position = UDim2.new(0.640158653, 0, 0, 0)
+Maxamise.Size = UDim2.new(0, 33, 0, 25)
+Maxamise.Font = Enum.Font.SourceSans
+Maxamise.Text = ">"
+Maxamise.TextColor3 = Color3.fromRGB(255, 255, 255)
+Maxamise.TextSize = 20.000
+
+Content.Name = "Content"
+Content.Parent = main
+Content.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Content.Position = UDim2.new(-0.00110011001, 0, 0.0612745099, 0)
+Content.Size = UDim2.new(0, 910, 0, 382)
+
+Arsenal.Name = "Arsenal\\n"
+Arsenal.Parent = Content
+Arsenal.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Arsenal.Position = UDim2.new(0.679642737, 0, 0, 0)
+Arsenal.Size = UDim2.new(0, 137, 0, 383)
+
+Name_2.Name = "Name"
+Name_2.Parent = Arsenal
+Name_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_2.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_2.Size = UDim2.new(0, 131, 0, 30)
+Name_2.Font = Enum.Font.SourceSans
+Name_2.Text = "Arsenal"
+Name_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_2.TextSize = 20.000
+
+Gui.Name = "Gui"
+Gui.Parent = Arsenal
+Gui.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Gui.BackgroundTransparency = 0.400
+Gui.Position = UDim2.new(0, 0, 0.164490849, 0)
+Gui.Size = UDim2.new(0, 131, 0, 29)
+Gui.Font = Enum.Font.SourceSans
+Gui.Text = "Gui"
+Gui.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui.TextScaled = true
+Gui.TextSize = 15.000
+Gui.TextWrapped = true
+
+Bloxburg.Name = "Bloxburg"
+Bloxburg.Parent = Content
+Bloxburg.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Bloxburg.Position = UDim2.new(0.507141232, 0, 0, 0)
+Bloxburg.Size = UDim2.new(0, 137, 0, 383)
+
+Name_3.Name = "Name"
+Name_3.Parent = Bloxburg
+Name_3.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_3.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_3.Size = UDim2.new(0, 131, 0, 30)
+Name_3.Font = Enum.Font.SourceSans
+Name_3.Text = "Bloxburg"
+Name_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_3.TextSize = 20.000
+
+Autofarm.Name = "Autofarm"
+Autofarm.Parent = Bloxburg
+Autofarm.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Autofarm.BackgroundTransparency = 0.400
+Autofarm.Position = UDim2.new(0, 0, 0.164490849, 0)
+Autofarm.Size = UDim2.new(0, 131, 0, 29)
+Autofarm.Font = Enum.Font.SourceSans
+Autofarm.Text = "Hairdresser Autofarm"
+Autofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autofarm.TextScaled = true
+Autofarm.TextSize = 15.000
+Autofarm.TextWrapped = true
+
+BubbleGum.Name = "BubbleGum"
+BubbleGum.Parent = Content
+BubbleGum.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+BubbleGum.Position = UDim2.new(0.335797578, 0, 0, 0)
+BubbleGum.Size = UDim2.new(0, 137, 0, 383)
+
+Gui_2.Name = "Gui"
+Gui_2.Parent = BubbleGum
+Gui_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Gui_2.BackgroundTransparency = 0.400
+Gui_2.Position = UDim2.new(0, 0, 0.164490864, 0)
+Gui_2.Size = UDim2.new(0, 131, 0, 29)
+Gui_2.Font = Enum.Font.SourceSans
+Gui_2.Text = "Gui"
+Gui_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui_2.TextScaled = true
+Gui_2.TextSize = 15.000
+Gui_2.TextWrapped = true
+
+Name_4.Name = "Name"
+Name_4.Parent = BubbleGum
+Name_4.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_4.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_4.Size = UDim2.new(0, 131, 0, 30)
+Name_4.Font = Enum.Font.SourceSans
+Name_4.Text = "Bubble Gum Sim"
+Name_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_4.TextSize = 20.000
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = Content
+Jailbreak.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Jailbreak.Position = UDim2.new(-0.00110131572, 0, 0, 0)
+Jailbreak.Size = UDim2.new(0, 137, 0, 383)
+
+name.Name = "name"
+name.Parent = Jailbreak
+name.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+name.Position = UDim2.new(0, 0, 0.0313315913, 0)
+name.Size = UDim2.new(0, 131, 0, 30)
+name.Font = Enum.Font.SourceSans
+name.Text = "Jailbreak"
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
+name.TextSize = 20.000
+
+Autorob.Name = "Autorob"
+Autorob.Parent = Jailbreak
+Autorob.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Autorob.BackgroundTransparency = 0.400
+Autorob.Position = UDim2.new(0, 0, 0.164490864, 0)
+Autorob.Size = UDim2.new(0, 131, 0, 29)
+Autorob.Font = Enum.Font.SourceSans
+Autorob.Text = "(Broken) Auto Rob"
+Autorob.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autorob.TextScaled = true
+Autorob.TextSize = 15.000
+Autorob.TextWrapped = true
+
+Gui_3.Name = "Gui"
+Gui_3.Parent = Jailbreak
+Gui_3.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Gui_3.BackgroundTransparency = 0.400
+Gui_3.Position = UDim2.new(0, 0, 0.297650129, 0)
+Gui_3.Size = UDim2.new(0, 131, 0, 29)
+Gui_3.Font = Enum.Font.SourceSans
+Gui_3.Text = "(Broken) Nice Gui"
+Gui_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui_3.TextScaled = true
+Gui_3.TextSize = 15.000
+Gui_3.TextWrapped = true
+
+Nitro.Name = "Nitro"
+Nitro.Parent = Jailbreak
+Nitro.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Nitro.BackgroundTransparency = 0.400
+Nitro.Position = UDim2.new(0, 0, 0.428198427, 0)
+Nitro.Size = UDim2.new(0, 131, 0, 29)
+Nitro.Font = Enum.Font.SourceSans
+Nitro.Text = "(Broken) Infinite Nitro"
+Nitro.TextColor3 = Color3.fromRGB(255, 255, 255)
+Nitro.TextScaled = true
+Nitro.TextSize = 15.000
+Nitro.TextWrapped = true
+
+PhantomFhorses.Name = "PhantomFhorses"
+PhantomFhorses.Parent = Content
+PhantomFhorses.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+PhantomFhorses.Position = UDim2.new(0.165611446, 0, 0, 0)
+PhantomFhorses.Size = UDim2.new(0, 137, 0, 383)
+
+Name_5.Name = "Name"
+Name_5.Parent = PhantomFhorses
+Name_5.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_5.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_5.Size = UDim2.new(0, 131, 0, 30)
+Name_5.Font = Enum.Font.SourceSans
+Name_5.Text = "Phantom Forces"
+Name_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_5.TextSize = 20.000
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = PhantomFhorses
+Aimbot.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Aimbot.BackgroundTransparency = 0.400
+Aimbot.Position = UDim2.new(0, 0, 0.164490864, 0)
+Aimbot.Size = UDim2.new(0, 131, 0, 29)
+Aimbot.Font = Enum.Font.SourceSans
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.TextScaled = true
+Aimbot.TextSize = 15.000
+Aimbot.TextWrapped = true
+
+PFmaster.Name = "PFmaster"
+PFmaster.Parent = PhantomFhorses
+PFmaster.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+PFmaster.BackgroundTransparency = 0.400
+PFmaster.Position = UDim2.new(0, 0, 0.297650129, 0)
+PFmaster.Size = UDim2.new(0, 131, 0, 29)
+PFmaster.Font = Enum.Font.SourceSans
+PFmaster.Text = "PFmaster Gui"
+PFmaster.TextColor3 = Color3.fromRGB(255, 255, 255)
+PFmaster.TextScaled = true
+PFmaster.TextSize = 15.000
+PFmaster.TextWrapped = true
+
+esp.Name = "esp"
+esp.Parent = PhantomFhorses
+esp.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+esp.BackgroundTransparency = 0.400
+esp.Position = UDim2.new(0, 0, 0.428198427, 0)
+esp.Size = UDim2.new(0, 131, 0, 29)
+esp.Font = Enum.Font.SourceSans
+esp.Text = "Esp"
+esp.TextColor3 = Color3.fromRGB(255, 255, 255)
+esp.TextScaled = true
+esp.TextSize = 15.000
+esp.TextWrapped = true
+
+general.Name = "general"
+general.Parent = Content
+general.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+general.Position = UDim2.new(0.8486709, 0, 0, 0)
+general.Size = UDim2.new(0, 137, 0, 383)
+
+Name_6.Name = "Name"
+Name_6.Parent = general
+Name_6.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_6.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_6.Size = UDim2.new(0, 131, 0, 30)
+Name_6.Font = Enum.Font.SourceSans
+Name_6.Text = "General"
+Name_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_6.TextSize = 20.000
+
+Admin.Name = "Admin"
+Admin.Parent = general
+Admin.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Admin.BackgroundTransparency = 0.400
+Admin.Position = UDim2.new(0, 0, 0.164490864, 0)
+Admin.Size = UDim2.new(0, 131, 0, 29)
+Admin.Font = Enum.Font.SourceSans
+Admin.Text = "Reviz Admin"
+Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Admin.TextScaled = true
+Admin.TextSize = 15.000
+Admin.TextWrapped = true
+
+Dex.Name = "Dex"
+Dex.Parent = general
+Dex.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Dex.BackgroundTransparency = 0.400
+Dex.Position = UDim2.new(0, 0, 0.297650129, 0)
+Dex.Size = UDim2.new(0, 131, 0, 29)
+Dex.Font = Enum.Font.SourceSans
+Dex.Text = "Dex"
+Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex.TextScaled = true
+Dex.TextSize = 15.000
+Dex.TextWrapped = true
+
+Sniper.Name = "Sniper"
+Sniper.Parent = general
+Sniper.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Sniper.BackgroundTransparency = 0.400
+Sniper.Position = UDim2.new(0, 0, 0.428198427, 0)
+Sniper.Size = UDim2.new(0, 131, 0, 29)
+Sniper.Font = Enum.Font.SourceSans
+Sniper.Text = "Stream Sniper"
+Sniper.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sniper.TextScaled = true
+Sniper.TextSize = 15.000
+Sniper.TextWrapped = true
+
+About.Name = "About"
+About.Parent = general
+About.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+About.BackgroundTransparency = 0.400
+About.Position = UDim2.new(0, 0, 0.561357677, 0)
+About.Size = UDim2.new(0, 131, 0, 29)
+About.Font = Enum.Font.SourceSans
+About.Text = "About"
+About.TextColor3 = Color3.fromRGB(255, 255, 255)
+About.TextScaled = true
+About.TextSize = 15.000
+About.TextWrapped = true
+
+question.Name = "question"
+question.Parent = general
+question.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+question.BackgroundTransparency = 0.400
+question.Position = UDim2.new(0, 0, 0.697127938, 0)
+question.Size = UDim2.new(0, 131, 0, 29)
+question.Font = Enum.Font.SourceSans
+question.Text = "Why are some scripts not working?"
+question.TextColor3 = Color3.fromRGB(255, 255, 255)
+question.TextScaled = true
+question.TextSize = 15.000
+question.TextWrapped = true
+
+page.Name = "page"
+page.Parent = main
+page.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+page.Position = UDim2.new(-0.0021978023, 0, 0.937172711, 0)
+page.Size = UDim2.new(0, 912, 0, 25)
+
+next.Name = "next"
+next.Parent = page
+next.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+next.BackgroundTransparency = 1.000
+next.Size = UDim2.new(0, 912, 0, 24)
+next.Font = Enum.Font.SourceSans
+next.Text = "Next"
+next.TextColor3 = Color3.fromRGB(255, 255, 255)
+next.TextSize = 20.000
+
+Page2.Name = "Page2"
+Page2.Parent = main
+Page2.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Page2.Position = UDim2.new(-0.00330033014, 0, 0.0612745099, 0)
+Page2.Size = UDim2.new(0, 912, 0, 357)
+Page2.Visible = false
+
+Blank.Name = "Blank"
+Blank.Parent = Page2
+Blank.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Blank.Position = UDim2.new(0.679642797, 0, 0, 0)
+Blank.Size = UDim2.new(0, 137, 0, 357)
+
+Name_7.Name = "Name"
+Name_7.Parent = Blank
+Name_7.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_7.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_7.Size = UDim2.new(0, 131, 0, 30)
+Name_7.Font = Enum.Font.SourceSans
+Name_7.Text = "Coming Soon"
+Name_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_7.TextSize = 20.000
+
+Blank_2.Name = "Blank"
+Blank_2.Parent = Page2
+Blank_2.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Blank_2.Position = UDim2.new(0.507141232, 0, 0, 0)
+Blank_2.Size = UDim2.new(0, 137, 0, 357)
+
+Name_8.Name = "Name"
+Name_8.Parent = Blank_2
+Name_8.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_8.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_8.Size = UDim2.new(0, 131, 0, 30)
+Name_8.Font = Enum.Font.SourceSans
+Name_8.Text = "Coming Soon"
+Name_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_8.TextSize = 20.000
+
+Blank_3.Name = "Blank"
+Blank_3.Parent = Page2
+Blank_3.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Blank_3.Position = UDim2.new(0.335797638, 0, 0, 0)
+Blank_3.Size = UDim2.new(0, 137, 0, 357)
+
+Name_9.Name = "Name"
+Name_9.Parent = Blank_3
+Name_9.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_9.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_9.Size = UDim2.new(0, 131, 0, 30)
+Name_9.Font = Enum.Font.SourceSans
+Name_9.Text = "Coming Soon"
+Name_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_9.TextSize = 20.000
+
+MM2.Name = "MM2"
+MM2.Parent = Page2
+MM2.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+MM2.Position = UDim2.new(-0.00110130978, 0, 0, 0)
+MM2.Size = UDim2.new(0, 137, 0, 357)
+
+name_2.Name = "name"
+name_2.Parent = MM2
+name_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+name_2.Position = UDim2.new(0, 0, 0.0313315913, 0)
+name_2.Size = UDim2.new(0, 131, 0, 30)
+name_2.Font = Enum.Font.SourceSans
+name_2.Text = "Murder Mystery 2"
+name_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_2.TextSize = 20.000
+
+Gui_4.Name = "Gui"
+Gui_4.Parent = MM2
+Gui_4.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Gui_4.BackgroundTransparency = 0.400
+Gui_4.Position = UDim2.new(0, 0, 0.164490864, 0)
+Gui_4.Size = UDim2.new(0, 131, 0, 29)
+Gui_4.Font = Enum.Font.SourceSans
+Gui_4.Text = "Gui"
+Gui_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gui_4.TextScaled = true
+Gui_4.TextSize = 15.000
+Gui_4.TextWrapped = true
+
+Knife.Name = "Knife"
+Knife.Parent = MM2
+Knife.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Knife.BackgroundTransparency = 0.400
+Knife.Position = UDim2.new(0, 0, 0.297650129, 0)
+Knife.Size = UDim2.new(0, 131, 0, 29)
+Knife.Font = Enum.Font.SourceSans
+Knife.Text = "Xbox Knife"
+Knife.TextColor3 = Color3.fromRGB(255, 255, 255)
+Knife.TextScaled = true
+Knife.TextSize = 15.000
+Knife.TextWrapped = true
+
+Speedrun.Name = "Speedrun"
+Speedrun.Parent = Page2
+Speedrun.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Speedrun.Position = UDim2.new(0.165611461, 0, 0, 0)
+Speedrun.Size = UDim2.new(0, 137, 0, 357)
+
+Name_10.Name = "Name"
+Name_10.Parent = Speedrun
+Name_10.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_10.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_10.Size = UDim2.new(0, 131, 0, 30)
+Name_10.Font = Enum.Font.SourceSans
+Name_10.Text = "Speed Run 4"
+Name_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_10.TextSize = 20.000
+
+Autofarm_2.Name = "Autofarm"
+Autofarm_2.Parent = Speedrun
+Autofarm_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Autofarm_2.BackgroundTransparency = 0.400
+Autofarm_2.Position = UDim2.new(0, 0, 0.164490864, 0)
+Autofarm_2.Size = UDim2.new(0, 131, 0, 29)
+Autofarm_2.Font = Enum.Font.SourceSans
+Autofarm_2.Text = "(Exclusive) Autofarm"
+Autofarm_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autofarm_2.TextScaled = true
+Autofarm_2.TextSize = 15.000
+Autofarm_2.TextWrapped = true
+
+Blank_4.Name = "Blank"
+Blank_4.Parent = Page2
+Blank_4.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+Blank_4.Position = UDim2.new(0.84867084, 0, 0, 0)
+Blank_4.Size = UDim2.new(0, 137, 0, 357)
+
+Name_11.Name = "Name"
+Name_11.Parent = Blank_4
+Name_11.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Name_11.Position = UDim2.new(0, 0, 0.0313315913, 0)
+Name_11.Size = UDim2.new(0, 131, 0, 30)
+Name_11.Font = Enum.Font.SourceSans
+Name_11.Text = "Coming Soon"
+Name_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_11.TextSize = 20.000
+
+About_2.Name = "About"
+About_2.Parent = Main
+About_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+About_2.Position = UDim2.new(0.241522908, 0, 0.232186735, 0)
+About_2.Size = UDim2.new(0, 275, 0, 383)
+About_2.Visible = false
+
+Top.Name = "Top"
+Top.Parent = About_2
+Top.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Top.Position = UDim2.new(-0.00151857734, 0, -0.000189244747, 0)
+Top.Size = UDim2.new(0, 275, 0, 25)
+
+Name_12.Name = "Name"
+Name_12.Parent = Top
+Name_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name_12.BackgroundTransparency = 1.000
+Name_12.Position = UDim2.new(0.286052614, 0, 0, 0)
+Name_12.Size = UDim2.new(0, 117, 0, 25)
+Name_12.Font = Enum.Font.SourceSans
+Name_12.Text = "Haunted Hub"
+Name_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_12.TextSize = 20.000
+
+Bottom.Name = "Bottom"
+Bottom.Parent = About_2
+Bottom.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Bottom.Position = UDim2.new(-0.00515494123, 0, 0.934536576, 0)
+Bottom.Size = UDim2.new(0, 275, 0, 25)
+
+Ok.Name = "Ok"
+Ok.Parent = Bottom
+Ok.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Ok.BackgroundTransparency = 1.000
+Ok.Position = UDim2.new(0.00697310036, 0, 0, 0)
+Ok.Size = UDim2.new(0, 274, 0, 25)
+Ok.Font = Enum.Font.SourceSans
+Ok.Text = "I understand"
+Ok.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ok.TextScaled = true
+Ok.TextSize = 15.000
+Ok.TextWrapped = true
+
+TextLabel.Parent = About_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.00363636366, 0, 0.0626631826, 0)
+TextLabel.Size = UDim2.new(0, 272, 0, 333)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Haunted Hub is not responsible for any bans or your behavior. Scripting can get you banned and you might loose all your robux and items. Be careful.              Created by Dragonxd09#5612\\n"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Question.Name = "Question"
+Question.Parent = Main
+Question.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Question.Position = UDim2.new(0.5, -136, 0.5, -136)
+Question.Size = UDim2.new(0, 272, 0, 273)
+Question.Visible = false
+
+Frame.Parent = Question
+Frame.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Frame.Size = UDim2.new(0, 272, 0, 23)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 272, 0, 22)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Why are some scripts not working?"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 2.347826, 0)
+TextLabel_3.Size = UDim2.new(0, 272, 0, 22)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "1. Some scripts are for paid exploits only"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.0036764706, 0, 3.86956501, 0)
+TextLabel_4.Size = UDim2.new(0, 272, 0, 22)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "2. The script was deleted or no longer exists"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(-0.0036764706, 0, 5.43478251, 0)
+TextLabel_5.Size = UDim2.new(0, 272, 0, 22)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "3. The script was patched"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0, 0, 7.04347801, 0)
+TextLabel_6.Size = UDim2.new(0, 272, 0, 22)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "4. Your antivirus blocked the script from running"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = Frame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0, 0, 8.347826, 0)
+TextLabel_7.Size = UDim2.new(0, 272, 0, 22)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "5. unknown reason"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+Frame_2.Parent = Question
+Frame_2.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Frame_2.Position = UDim2.new(-0.0036764706, 0, 0.915750921, 0)
+Frame_2.Size = UDim2.new(0, 272, 0, 23)
+
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Size = UDim2.new(0, 273, 0, 23)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "OK"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+-- Scripts:
+
+local function ZTLM_fake_script() -- X.function 
+	local script = Instance.new('LocalScript', X)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(ZTLM_fake_script)()
+local function YEID_fake_script() -- Minimise.function 
+	local script = Instance.new('LocalScript', Minimise)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.small.Visible = true
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.BackgroundTransparency = 1
+		script.Parent.Parent.Parent.Content.Visible = false
+		script.Parent.Parent.Parent.page.Visible = false
+		script.Parent.Parent.Parent.Page2.Visible = false
+	end)
+end
+coroutine.wrap(YEID_fake_script)()
+local function KWECD_fake_script() -- main.drag 
+	local script = Instance.new('LocalScript', main)
+
+	script.Parent.Active = true	
+	script.Parent.Selectable = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(KWECD_fake_script)()
+local function SNDUF_fake_script() -- Maxamise.function 
+	local script = Instance.new('LocalScript', Maxamise)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.top.Visible = true
+		script.Parent.Parent.Parent.Content.Visible = true
+		script.Parent.Parent.Parent.BackgroundTransparency = 0
+		script.Parent.Parent.Parent.page.Visible = true
+		script.Parent.Parent.Parent.page.next.Text = "Next"
+	end)
+end
+coroutine.wrap(SNDUF_fake_script)()
+local function EAMY_fake_script() -- Name_2.Detect 
+	local script = Instance.new('LocalScript', Name_2)
+
+	if game.PlaceId  == 286090429 then
+	script.Parent.TextColor3 = Color3.new(0, 255, 0)
+	else
+	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
+	end
+end
+coroutine.wrap(EAMY_fake_script)()
+local function INCNS_fake_script() -- Gui.tip 
+	local script = Instance.new('LocalScript', Gui)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "A gui with all the functions you would need"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Gui"
+	end)
+end
+coroutine.wrap(INCNS_fake_script)()
+local function RUZS_fake_script() -- Gui.function 
+	local script = Instance.new('LocalScript', Gui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet('https://pastebin.com/raw/T3fzg7tm', true))()
+	
+	end)
+end
+coroutine.wrap(RUZS_fake_script)()
+local function PJJXMTG_fake_script() -- Name_3.Detect 
+	local script = Instance.new('LocalScript', Name_3)
+
+	if game.PlaceId  == 185655149 then
+	script.Parent.TextColor3 = Color3.new(0, 255, 0)
+	else
+	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
+	end
+end
+coroutine.wrap(PJJXMTG_fake_script)()
+local function NKRFAAJ_fake_script() -- Autofarm.tip 
+	local script = Instance.new('LocalScript', Autofarm)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "A easy way to make money"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Hairdresser Autofarm"
+	end)
+end
+coroutine.wrap(NKRFAAJ_fake_script)()
+local function FYCL_fake_script() -- Autofarm.function 
+	local script = Instance.new('LocalScript', Autofarm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://pastebin.com/raw/izp4DJ9m", true))()	
+	
+	end)
+end
+coroutine.wrap(FYCL_fake_script)()
+local function UGOE_fake_script() -- Gui_2.tip 
+	local script = Instance.new('LocalScript', Gui_2)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "The best gui I could find"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Gui"
+	end)
+end
+coroutine.wrap(UGOE_fake_script)()
+local function QSAHGM_fake_script() -- Gui_2.function 
+	local script = Instance.new('LocalScript', Gui_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("http://zerotwo.ga/script/game/"),true))()
+	end)
+end
+coroutine.wrap(QSAHGM_fake_script)()
+local function LVOHZR_fake_script() -- Name_4.Detect 
+	local script = Instance.new('LocalScript', Name_4)
+
+	if game.PlaceId  == 2512643572 then
+	script.Parent.TextColor3 = Color3.new(0, 255, 0)
+	else
+	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
+	end
+end
+coroutine.wrap(LVOHZR_fake_script)()
+local function NRQWFE_fake_script() -- name.Detect 
+	local script = Instance.new('LocalScript', name)
+
+	if game.PlaceId  == 606849621 then
+	script.Parent.TextColor3 = Color3.new(0, 255, 0)
+	else
+	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
+	end
+end
+coroutine.wrap(NRQWFE_fake_script)()
+local function XPBWTO_fake_script() -- Autorob.tip 
+	local script = Instance.new('LocalScript', Autorob)
+
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "A Easy way to make money in jailbreak"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "(Broken) Auto Rob"
+	end)
+	
+	
+	
+	
+	
+end
+coroutine.wrap(XPBWTO_fake_script)()
+local function JZNF_fake_script() -- Autorob.function 
+	local script = Instance.new('LocalScript', Autorob)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:GetObjects("rbxassetid://1461971147")[1].Source)()
+	end)
+end
+coroutine.wrap(JZNF_fake_script)()
+-- Autorob.Old Tip is disabled.
+local function JHOR_fake_script() -- Gui_3.tip 
+	local script = Instance.new('LocalScript', Gui_3)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "No longer works"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "(Broken) Nice Gui"
+	end)
+end
+coroutine.wrap(JHOR_fake_script)()
+local function MMAX_fake_script() -- Gui_3.function 
+	local script = Instance.new('LocalScript', Gui_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/VFeL159y", true))()
+	end)
+end
+coroutine.wrap(MMAX_fake_script)()
+-- Gui_3.Old Tip is disabled.
+local function YYQFA_fake_script() -- Nitro.tip 
+	local script = Instance.new('LocalScript', Nitro)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "No longer works"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "(Broken) Infinite Nitro"
+	end)
+end
+coroutine.wrap(YYQFA_fake_script)()
+local function VXWTGUA_fake_script() -- Nitro.function 
+	local script = Instance.new('LocalScript', Nitro)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local player = game:GetService("Players").LocalPlayer
+	local playergui = player:WaitForChild("PlayerGui")
+	local nitro = playergui.MainGui.Nitro
+	local pguin = playergui.ProductGui.Nitro
+	local pgui = playergui.ProductGui
+	
+	nitro.Name = "Complete"
+	pguin:Destroy()
+	local new = Instance.new("Model", pgui)
+	new.Name = "Nitro" -- now you have infinite nitro :)
+	nitro:Destroy()
+	end)
+end
+coroutine.wrap(VXWTGUA_fake_script)()
+-- Nitro.Old Tip is disabled.
+local function PEKH_fake_script() -- Name_5.Detect 
+	local script = Instance.new('LocalScript', Name_5)
+
+	if game.PlaceId  == 292439477 then
+	script.Parent.TextColor3 = Color3.new(0, 255, 0)
+	else
+	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
+	end
+end
+coroutine.wrap(PEKH_fake_script)()
+local function DTWLDE_fake_script() -- Aimbot.tip 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "Locks your scope on to players heads, easy kills"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Aimbot"
+	end)
+end
+coroutine.wrap(DTWLDE_fake_script)()
+local function GHNWX_fake_script() -- Aimbot.function 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/9TkT32AN/", true))()
+	end)
+end
+coroutine.wrap(GHNWX_fake_script)()
+local function MCTAH_fake_script() -- PFmaster.tip 
+	local script = Instance.new('LocalScript', PFmaster)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "Nice gui with helpfull functions"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "PFmaster Gui"
+	end)
+end
+coroutine.wrap(MCTAH_fake_script)()
+local function GFLQ_fake_script() -- PFmaster.function 
+	local script = Instance.new('LocalScript', PFmaster)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/URSTqphn"))()
+	end)
+end
+coroutine.wrap(GFLQ_fake_script)()
+local function VUEVVU_fake_script() -- esp.tip 
+	local script = Instance.new('LocalScript', esp)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "Allows you to see other players through walls"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Esp"
+	end)
+end
+coroutine.wrap(VUEVVU_fake_script)()
+local function MIYIZV_fake_script() -- esp.function 
+	local script = Instance.new('LocalScript', esp)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://pastebin.com/raw/x4Q2pJYG", true))()	
+	
+	end)
+end
+coroutine.wrap(MIYIZV_fake_script)()
+local function FXQUDP_fake_script() -- Admin.tip 
+	local script = Instance.new('LocalScript', Admin)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "My favorite admin script"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Reviz Admin"
+	end)
+end
+coroutine.wrap(FXQUDP_fake_script)()
+local function YLRN_fake_script() -- Admin.function 
+	local script = Instance.new('LocalScript', Admin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS", true))()
+	end)
+end
+coroutine.wrap(YLRN_fake_script)()
+local function OXIETO_fake_script() -- Dex.tip 
+	local script = Instance.new('LocalScript', Dex)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "Lets you view a game's files and scripts"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Dex"
+	end)
+end
+coroutine.wrap(OXIETO_fake_script)()
+local function LAAB_fake_script() -- Dex.function 
+	local script = Instance.new('LocalScript', Dex)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer%20V2.txt", true))()
+	end)
+end
+coroutine.wrap(LAAB_fake_script)()
+local function TJRCULA_fake_script() -- Sniper.tip 
+	local script = Instance.new('LocalScript', Sniper)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "Synapse X Stream Sniper"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Stream Sniper"
+	end)
+end
+coroutine.wrap(TJRCULA_fake_script)()
+local function HBLYNLC_fake_script() -- Sniper.function 
+	local script = Instance.new('LocalScript', Sniper)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/syngp/SynapseX/master/Synapse%20Scripts/StreamSniper.lua", true))()
+	end)
+end
+coroutine.wrap(HBLYNLC_fake_script)()
+local function YDJF_fake_script() -- About.tip 
+	local script = Instance.new('LocalScript', About)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "Haunted Hub Beta"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "About"
+	end)
+end
+coroutine.wrap(YDJF_fake_script)()
+local function PWQIOV_fake_script() -- About.function 
+	local script = Instance.new('LocalScript', About)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.About.Visible = true
+		script.Parent.Parent.Parent.Parent.Parent.main.Visible = false
+	end)
+end
+coroutine.wrap(PWQIOV_fake_script)()
+local function IVWTF_fake_script() -- question.tip 
+	local script = Instance.new('LocalScript', question)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "Click for answer"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Why are some scripts not working?"
+	end)
+end
+coroutine.wrap(IVWTF_fake_script)()
+local function UTMA_fake_script() -- question.function 
+	local script = Instance.new('LocalScript', question)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.Parent.Question.Visible = true
+	end)
+end
+coroutine.wrap(UTMA_fake_script)()
+local function DBMPRF_fake_script() -- next.LocalScript 
+	local script = Instance.new('LocalScript', next)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Text == "Next" then
+		script.Parent.Parent.Parent.Content.Visible = false
+		script.Parent.Parent.Parent.Page2.Visible = true
+		script.Parent.Text = "Back"
+		else
+		script.Parent.Parent.Parent.Content.Visible = true
+		script.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Text = "Next"			
+		end
+		
+	end)
+end
+coroutine.wrap(DBMPRF_fake_script)()
+local function OEKHK_fake_script() -- name_2.Detect 
+	local script = Instance.new('LocalScript', name_2)
+
+	if game.PlaceId  == 142823291 then
+	script.Parent.TextColor3 = Color3.new(0, 255, 0)
+	else
+	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
+	end
+end
+coroutine.wrap(OEKHK_fake_script)()
+local function DJKPYV_fake_script() -- Gui_4.tip 
+	local script = Instance.new('LocalScript', Gui_4)
+
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "A good gui for Murder Mystery 2"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Gui"
+	end)
+end
+coroutine.wrap(DJKPYV_fake_script)()
+local function XSGBRN_fake_script() -- Gui_4.function 
+	local script = Instance.new('LocalScript', Gui_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/CVjjtGkF", true))()
+	end)
+end
+coroutine.wrap(XSGBRN_fake_script)()
+local function LNSOK_fake_script() -- Knife.tip 
+	local script = Instance.new('LocalScript', Knife)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "This script will give you a xbox knife"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "Xbox Knife"
+	end)
+end
+coroutine.wrap(LNSOK_fake_script)()
+local function ZAOF_fake_script() -- Knife.function 
+	local script = Instance.new('LocalScript', Knife)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local Event = game:GetService("ReplicatedStorage").IsXbox
+	Event:FireServer(A_1)
+	end)
+end
+coroutine.wrap(ZAOF_fake_script)()
+local function NHOF_fake_script() -- Name_10.Detect 
+	local script = Instance.new('LocalScript', Name_10)
+
+	if game.PlaceId  == 183364845 then
+	script.Parent.TextColor3 = Color3.new(0, 255, 0)
+	else
+	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
+	end
+end
+coroutine.wrap(NHOF_fake_script)()
+local function OVKP_fake_script() -- Autofarm_2.tip 
+	local script = Instance.new('LocalScript', Autofarm_2)
+
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Text = "Made by me so its only in haunted hub"
+	end)
+	
+	
+	
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Text = "(Exclusive) Autofarm"
+	end)
+end
+coroutine.wrap(OVKP_fake_script)()
+local function OONSYVT_fake_script() -- Autofarm_2.function 
+	local script = Instance.new('LocalScript', Autofarm_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Gui to Lua
+	-- Version: 3.2
+	
+	-- Instances:
+	
+	local speedrun = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local TextLabel = Instance.new("TextLabel")
+	local TextLabel_2 = Instance.new("TextLabel")
+	local start = Instance.new("TextButton")
+	local min = Instance.new("TextLabel")
+	local TextLabel_3 = Instance.new("TextLabel")
+	local Maxnum = Instance.new("TextLabel")
+	local num = Instance.new("TextLabel")
+	local minus = Instance.new("TextButton")
+	local plus = Instance.new("TextButton")
+	local Reset = Instance.new("TextButton")
+	local inf = Instance.new("TextButton")
+	
+	--Properties:
+	
+	speedrun.Name = "speedrun"
+	speedrun.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	speedrun.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	speedrun.ResetOnSpawn = false
+	
+	Frame.Parent = speedrun
+	Frame.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+	Frame.BackgroundTransparency = 0.200
+	Frame.Position = UDim2.new(0.5, -328, 0.5, -110)
+	Frame.Size = UDim2.new(0, 368, 0, 158)
+	
+	TextLabel.Parent = Frame
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.Size = UDim2.new(0, 368, 0, 43)
+	TextLabel.Font = Enum.Font.SourceSans
+	TextLabel.Text = "Speed Run 4  Auto Complete    By: Dragonxd09#5612"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextSize = 20.000
+	
+	TextLabel_2.Parent = Frame
+	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.BackgroundTransparency = 1.000
+	TextLabel_2.Position = UDim2.new(0, 0, 0.271639705, 0)
+	TextLabel_2.Size = UDim2.new(0, 229, 0, 43)
+	TextLabel_2.Font = Enum.Font.SourceSans
+	TextLabel_2.Text = "How many times to run:"
+	TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.TextSize = 20.000
+	
+	start.Name = "start"
+	start.Parent = Frame
+	start.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	start.BackgroundTransparency = 1.000
+	start.Position = UDim2.new(0, 0, 0.726833701, 0)
+	start.Size = UDim2.new(0, 124, 0, 43)
+	start.Font = Enum.Font.SourceSans
+	start.Text = "Start"
+	start.TextColor3 = Color3.fromRGB(0, 255, 38)
+	start.TextSize = 20.000
+	
+	min.Name = "min"
+	min.Parent = Frame
+	min.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	min.BackgroundTransparency = 1.000
+	min.Position = UDim2.new(0, 0, 0.543791592, 0)
+	min.Size = UDim2.new(0, 139, 0, 43)
+	min.Font = Enum.Font.SourceSans
+	min.Text = "0"
+	min.TextColor3 = Color3.fromRGB(255, 255, 255)
+	min.TextSize = 20.000
+	
+	TextLabel_3.Name = "/"
+	TextLabel_3.Parent = Frame
+	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.BackgroundTransparency = 1.000
+	TextLabel_3.Position = UDim2.new(0.309782594, 0, 0.543791592, 0)
+	TextLabel_3.Size = UDim2.new(0, 139, 0, 43)
+	TextLabel_3.Font = Enum.Font.SourceSans
+	TextLabel_3.Text = "/"
+	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.TextSize = 20.000
+	
+	Maxnum.Name = "Maxnum"
+	Maxnum.Parent = Frame
+	Maxnum.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Maxnum.BackgroundTransparency = 1.000
+	Maxnum.Position = UDim2.new(0.622282624, 0, 0.543791592, 0)
+	Maxnum.Size = UDim2.new(0, 139, 0, 43)
+	Maxnum.Font = Enum.Font.SourceSans
+	Maxnum.Text = ""
+	Maxnum.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Maxnum.TextSize = 20.000
+	
+	num.Name = "num"
+	num.Parent = Frame
+	num.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	num.BackgroundTransparency = 1.000
+	num.Position = UDim2.new(0.652173936, 0, 0.341772139, 0)
+	num.Size = UDim2.new(0, 102, 0, 25)
+	num.Font = Enum.Font.SourceSans
+	num.Text = "1"
+	num.TextColor3 = Color3.fromRGB(255, 255, 255)
+	num.TextScaled = true
+	num.TextSize = 14.000
+	num.TextWrapped = true
+	
+	minus.Name = "minus"
+	minus.Parent = Frame
+	minus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	minus.BackgroundTransparency = 1.000
+	minus.Position = UDim2.new(0.554347813, 0, 0.322784811, 0)
+	minus.Size = UDim2.new(0, 55, 0, 26)
+	minus.Font = Enum.Font.SourceSans
+	minus.Text = "-"
+	minus.TextColor3 = Color3.fromRGB(255, 255, 255)
+	minus.TextScaled = true
+	minus.TextSize = 14.000
+	minus.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+	minus.TextWrapped = true
+	
+	plus.Name = "plus"
+	plus.Parent = Frame
+	plus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	plus.BackgroundTransparency = 1.000
+	plus.Position = UDim2.new(0.875, 0, 0.341772139, 0)
+	plus.Size = UDim2.new(0, 46, 0, 26)
+	plus.Font = Enum.Font.SourceSans
+	plus.Text = "+"
+	plus.TextColor3 = Color3.fromRGB(255, 255, 255)
+	plus.TextScaled = true
+	plus.TextSize = 14.000
+	plus.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+	plus.TextWrapped = true
+	
+	Reset.Name = "Reset"
+	Reset.Parent = Frame
+	Reset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Reset.BackgroundTransparency = 1.000
+	Reset.Position = UDim2.new(0.337628901, 0, 0.726833701, 0)
+	Reset.Size = UDim2.new(0, 115, 0, 43)
+	Reset.Font = Enum.Font.SourceSans
+	Reset.Text = "Reset"
+	Reset.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Reset.TextSize = 20.000
+	
+	inf.Name = "inf"
+	inf.Parent = Frame
+	inf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	inf.BackgroundTransparency = 1.000
+	inf.Position = UDim2.new(0.685454965, 0, 0.726833701, 0)
+	inf.Size = UDim2.new(0, 115, 0, 43)
+	inf.Font = Enum.Font.SourceSans
+	inf.Text = "Infinate"
+	inf.TextColor3 = Color3.fromRGB(255, 255, 255)
+	inf.TextSize = 20.000
+	
+	-- Scripts:
+	
+	local function GUXO_fake_script() -- Frame.LocalScript 
+		local script = Instance.new('LocalScript', Frame)
+	
+		local number = 0
+		
+		local runs = 0
+		
+		local minus = script.Parent.minus
+		
+		local plus = script.Parent.plus
+		
+		local max = script.Parent.Maxnum
+		
+		number = number + 1
+		max.Text = number
+		script.Parent.Parent.ResetOnSpawn = false
+		
+		script.Parent.Reset.MouseButton1Click:Connect(function()
+			 number = 0
+			number = number + 1
+		
+		runs = 0
+		script.Parent.num.Text = number
+		max.Text = number
+		script.Parent.min.Text = runs
+		end)
+		
+		
+		script.Parent.inf.MouseButton1Click:Connect(function()
+			 number = 0
+			number = number + 99999999999
+		script.Parent.num.Text = number
+		max.Text = number
+		script.Parent.min.Text = runs	
+		end)
+		
+		
+		
+		plus.MouseButton1Click:Connect(function()
+			number = number + 1
+			print(number)
+			
+			script.Parent.num.Text = number
+			max.Text = number
+			script.Parent.min.Text = runs
+		end)
+		
+		minus.MouseButton1Click:Connect(function()
+		
+			number = number - 1
+			print(number)
+				if number == 0
+			then
+				number = 1
+				print(number)
+			end
+			script.Parent.num.Text = number	
+			max.Text = number
+		end)
+		
+		script.Parent.start.MouseButton1Click:Connect(function()
+			
+			while runs < number
+			do
+				
+				game.Players.LocalPlayer.Character:MoveTo(Vector3.new(106.252197,133.659912,-543.064026))
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 1")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 1", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 2")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 2", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 3")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 3", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 4")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 4", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 5")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 5", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 6")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 6", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 7")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 7", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 8")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 8", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 9")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 9", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 10")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 10", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 11")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 11", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 12")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 12", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 13")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 13", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 14")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 14", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 15")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 15", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 16")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 16", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 17")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 17", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 18")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 18", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 19")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 19", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 20")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 20", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 21")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 21", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 22")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 22", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 23")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 23", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 24")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 24", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 25")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 25", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 26")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 26", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 27")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 27", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 28")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 28", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 29")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 29", "", true)
+		wait(0.1)
+		game:GetService("ReplicatedStorage").GotStar:FireServer("Level 30")
+		game:GetService("ReplicatedStorage").BeatLevel:FireServer(25, "Level 30", "", true)
+		game:GetService("ReplicatedStorage").SetLevel:FireServer(0)
+				
+				
+				
+				runs = runs + 1
+					script.Parent.min.Text = runs
+			end
+		end)
+	end
+	coroutine.wrap(GUXO_fake_script)()
+	
+	
+	end)
+end
+coroutine.wrap(OONSYVT_fake_script)()
+local function ILJPQQ_fake_script() -- Ok.function 
+	local script = Instance.new('LocalScript', Ok)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.main.Visible = true
+		script.Parent.Parent.Parent.Parent.About.Visible = false
+	end)
+end
+coroutine.wrap(ILJPQQ_fake_script)()
+local function SJHAKH_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.ResetOnSpawn = false
+end
+coroutine.wrap(SJHAKH_fake_script)()
+local function XUTM_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.main.Visible = true
+	end)
+end
+coroutine.wrap(XUTM_fake_script)()
+local function GWIRV_fake_script() -- Main.destroy 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Parent.Loading:Destroy()
+end
+coroutine.wrap(GWIRV_fake_script)()
