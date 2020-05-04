@@ -278,7 +278,7 @@ Autorob.BorderSizePixel = 0
 Autorob.Position = UDim2.new(0, 0, 0.164490864, 0)
 Autorob.Size = UDim2.new(0, 131, 0, 29)
 Autorob.Font = Enum.Font.SourceSans
-Autorob.Text = "(Broken) Auto Rob"
+Autorob.Text = "(Patched) Auto Rob"
 Autorob.TextColor3 = Color3.fromRGB(255, 255, 255)
 Autorob.TextScaled = true
 Autorob.TextSize = 15.000
@@ -292,7 +292,7 @@ Gui_3.BorderSizePixel = 0
 Gui_3.Position = UDim2.new(0, 0, 0.297650129, 0)
 Gui_3.Size = UDim2.new(0, 131, 0, 29)
 Gui_3.Font = Enum.Font.SourceSans
-Gui_3.Text = "(Broken) Nice Gui"
+Gui_3.Text = "(Patched) Nice Gui"
 Gui_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gui_3.TextScaled = true
 Gui_3.TextSize = 15.000
@@ -306,7 +306,7 @@ Nitro.BorderSizePixel = 0
 Nitro.Position = UDim2.new(0, 0, 0.428198427, 0)
 Nitro.Size = UDim2.new(0, 131, 0, 29)
 Nitro.Font = Enum.Font.SourceSans
-Nitro.Text = "(Broken) Infinite Nitro"
+Nitro.Text = "(Patched) Infinite Nitro"
 Nitro.TextColor3 = Color3.fromRGB(255, 255, 255)
 Nitro.TextScaled = true
 Nitro.TextSize = 15.000
@@ -807,15 +807,15 @@ TextButton.TextWrapped = true
 
 -- Scripts:
 
-local function RQPMK_fake_script() -- X.function 
+local function DASEM_fake_script() -- X.function 
 	local script = Instance.new('LocalScript', X)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(RQPMK_fake_script)()
-local function QWSWYVX_fake_script() -- Minimise.function 
+coroutine.wrap(DASEM_fake_script)()
+local function RVMSWS_fake_script() -- Minimise.function 
 	local script = Instance.new('LocalScript', Minimise)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -827,16 +827,16 @@ local function QWSWYVX_fake_script() -- Minimise.function
 		script.Parent.Parent.Parent.Page2.Visible = false
 	end)
 end
-coroutine.wrap(QWSWYVX_fake_script)()
-local function VWTKLLE_fake_script() -- main.drag 
+coroutine.wrap(RVMSWS_fake_script)()
+local function IVECLZA_fake_script() -- main.drag 
 	local script = Instance.new('LocalScript', main)
 
 	script.Parent.Active = true	
 	script.Parent.Selectable = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(VWTKLLE_fake_script)()
-local function ZHOAH_fake_script() -- Maxamise.function 
+coroutine.wrap(IVECLZA_fake_script)()
+local function WHBDZG_fake_script() -- Maxamise.function 
 	local script = Instance.new('LocalScript', Maxamise)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -848,8 +848,8 @@ local function ZHOAH_fake_script() -- Maxamise.function
 		script.Parent.Parent.Parent.page.next.Text = "Next"
 	end)
 end
-coroutine.wrap(ZHOAH_fake_script)()
-local function MKSH_fake_script() -- Name_2.Detect 
+coroutine.wrap(WHBDZG_fake_script)()
+local function YRVSTAT_fake_script() -- Name_2.Detect 
 	local script = Instance.new('LocalScript', Name_2)
 
 	if game.PlaceId  == 286090429 then
@@ -858,8 +858,8 @@ local function MKSH_fake_script() -- Name_2.Detect
 	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
 	end
 end
-coroutine.wrap(MKSH_fake_script)()
-local function UPNOIO_fake_script() -- Gui.tip 
+coroutine.wrap(YRVSTAT_fake_script)()
+local function FIXCMOI_fake_script() -- Gui.tip 
 	local script = Instance.new('LocalScript', Gui)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -873,8 +873,8 @@ local function UPNOIO_fake_script() -- Gui.tip
 		script.Parent.Text = "Gui"
 	end)
 end
-coroutine.wrap(UPNOIO_fake_script)()
-local function NAZRI_fake_script() -- Gui.function 
+coroutine.wrap(FIXCMOI_fake_script)()
+local function JHDU_fake_script() -- Gui.function 
 	local script = Instance.new('LocalScript', Gui)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -883,8 +883,8 @@ local function NAZRI_fake_script() -- Gui.function
 	
 	end)
 end
-coroutine.wrap(NAZRI_fake_script)()
-local function IWKEWQ_fake_script() -- Name_3.Detect 
+coroutine.wrap(JHDU_fake_script)()
+local function GXMF_fake_script() -- Name_3.Detect 
 	local script = Instance.new('LocalScript', Name_3)
 
 	if game.PlaceId  == 185655149 then
@@ -893,8 +893,8 @@ local function IWKEWQ_fake_script() -- Name_3.Detect
 	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
 	end
 end
-coroutine.wrap(IWKEWQ_fake_script)()
-local function XBGFQD_fake_script() -- Autofarm.tip 
+coroutine.wrap(GXMF_fake_script)()
+local function VAHIX_fake_script() -- Autofarm.tip 
 	local script = Instance.new('LocalScript', Autofarm)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -908,8 +908,8 @@ local function XBGFQD_fake_script() -- Autofarm.tip
 		script.Parent.Text = "Hairdresser Autofarm"
 	end)
 end
-coroutine.wrap(XBGFQD_fake_script)()
-local function ACKEXT_fake_script() -- Autofarm.function 
+coroutine.wrap(VAHIX_fake_script)()
+local function DZOMV_fake_script() -- Autofarm.function 
 	local script = Instance.new('LocalScript', Autofarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -918,8 +918,8 @@ local function ACKEXT_fake_script() -- Autofarm.function
 	
 	end)
 end
-coroutine.wrap(ACKEXT_fake_script)()
-local function QUFLOI_fake_script() -- Gui_2.tip 
+coroutine.wrap(DZOMV_fake_script)()
+local function OJPNSQ_fake_script() -- Gui_2.tip 
 	local script = Instance.new('LocalScript', Gui_2)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -933,16 +933,16 @@ local function QUFLOI_fake_script() -- Gui_2.tip
 		script.Parent.Text = "Gui"
 	end)
 end
-coroutine.wrap(QUFLOI_fake_script)()
-local function ITRTYM_fake_script() -- Gui_2.function 
+coroutine.wrap(OJPNSQ_fake_script)()
+local function ESGFBI_fake_script() -- Gui_2.function 
 	local script = Instance.new('LocalScript', Gui_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("http://zerotwo.ga/script/game/"),true))()
 	end)
 end
-coroutine.wrap(ITRTYM_fake_script)()
-local function KHOUX_fake_script() -- Name_4.Detect 
+coroutine.wrap(ESGFBI_fake_script)()
+local function OROUH_fake_script() -- Name_4.Detect 
 	local script = Instance.new('LocalScript', Name_4)
 
 	if game.PlaceId  == 2512643572 then
@@ -951,8 +951,8 @@ local function KHOUX_fake_script() -- Name_4.Detect
 	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
 	end
 end
-coroutine.wrap(KHOUX_fake_script)()
-local function XKQBHM_fake_script() -- name.Detect 
+coroutine.wrap(OROUH_fake_script)()
+local function BQMI_fake_script() -- name.Detect 
 	local script = Instance.new('LocalScript', name)
 
 	if game.PlaceId  == 606849621 then
@@ -961,20 +961,20 @@ local function XKQBHM_fake_script() -- name.Detect
 	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
 	end
 end
-coroutine.wrap(XKQBHM_fake_script)()
-local function VKTD_fake_script() -- Autorob.tip 
+coroutine.wrap(BQMI_fake_script)()
+local function KHKKXZ_fake_script() -- Autorob.tip 
 	local script = Instance.new('LocalScript', Autorob)
 
 	
 	script.Parent.MouseEnter:Connect(function()
-		script.Parent.Text = "A Easy way to make money in jailbreak"
+		script.Parent.Text = "No longer works"
 	end)
 	
 	
 	
 	
 	script.Parent.MouseLeave:Connect(function()
-		script.Parent.Text = "(Broken) Auto Rob"
+		script.Parent.Text = "(Patched) Auto Rob"
 	end)
 	
 	
@@ -982,17 +982,17 @@ local function VKTD_fake_script() -- Autorob.tip
 	
 	
 end
-coroutine.wrap(VKTD_fake_script)()
-local function WMHFB_fake_script() -- Autorob.function 
+coroutine.wrap(KHKKXZ_fake_script)()
+local function EQYBS_fake_script() -- Autorob.function 
 	local script = Instance.new('LocalScript', Autorob)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:GetObjects("rbxassetid://1461971147")[1].Source)()
 	end)
 end
-coroutine.wrap(WMHFB_fake_script)()
+coroutine.wrap(EQYBS_fake_script)()
 -- Autorob.Old Tip is disabled.
-local function LVCST_fake_script() -- Gui_3.tip 
+local function ZGMO_fake_script() -- Gui_3.tip 
 	local script = Instance.new('LocalScript', Gui_3)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1003,20 +1003,20 @@ local function LVCST_fake_script() -- Gui_3.tip
 	
 	
 	script.Parent.MouseLeave:Connect(function()
-		script.Parent.Text = "(Broken) Nice Gui"
+		script.Parent.Text = "(Patched) Nice Gui"
 	end)
 end
-coroutine.wrap(LVCST_fake_script)()
-local function ZUHVIYH_fake_script() -- Gui_3.function 
+coroutine.wrap(ZGMO_fake_script)()
+local function SCXM_fake_script() -- Gui_3.function 
 	local script = Instance.new('LocalScript', Gui_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/VFeL159y", true))()
 	end)
 end
-coroutine.wrap(ZUHVIYH_fake_script)()
+coroutine.wrap(SCXM_fake_script)()
 -- Gui_3.Old Tip is disabled.
-local function VYGRSVH_fake_script() -- Nitro.tip 
+local function HCXM_fake_script() -- Nitro.tip 
 	local script = Instance.new('LocalScript', Nitro)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1027,11 +1027,11 @@ local function VYGRSVH_fake_script() -- Nitro.tip
 	
 	
 	script.Parent.MouseLeave:Connect(function()
-		script.Parent.Text = "(Broken) Infinite Nitro"
+		script.Parent.Text = "(Patched) Infinite Nitro"
 	end)
 end
-coroutine.wrap(VYGRSVH_fake_script)()
-local function BNJS_fake_script() -- Nitro.function 
+coroutine.wrap(HCXM_fake_script)()
+local function LQHIC_fake_script() -- Nitro.function 
 	local script = Instance.new('LocalScript', Nitro)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1048,9 +1048,9 @@ local function BNJS_fake_script() -- Nitro.function
 	nitro:Destroy()
 	end)
 end
-coroutine.wrap(BNJS_fake_script)()
+coroutine.wrap(LQHIC_fake_script)()
 -- Nitro.Old Tip is disabled.
-local function RZZSRO_fake_script() -- Name_5.Detect 
+local function LHKS_fake_script() -- Name_5.Detect 
 	local script = Instance.new('LocalScript', Name_5)
 
 	if game.PlaceId  == 292439477 then
@@ -1059,8 +1059,8 @@ local function RZZSRO_fake_script() -- Name_5.Detect
 	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
 	end
 end
-coroutine.wrap(RZZSRO_fake_script)()
-local function PXXIC_fake_script() -- Aimbot.tip 
+coroutine.wrap(LHKS_fake_script)()
+local function HLLKRJ_fake_script() -- Aimbot.tip 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1074,16 +1074,16 @@ local function PXXIC_fake_script() -- Aimbot.tip
 		script.Parent.Text = "Aimbot"
 	end)
 end
-coroutine.wrap(PXXIC_fake_script)()
-local function KZSA_fake_script() -- Aimbot.function 
+coroutine.wrap(HLLKRJ_fake_script)()
+local function NBIKQOC_fake_script() -- Aimbot.function 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/9TkT32AN/", true))()
 	end)
 end
-coroutine.wrap(KZSA_fake_script)()
-local function NZCIMRK_fake_script() -- PFmaster.tip 
+coroutine.wrap(NBIKQOC_fake_script)()
+local function ZITSQ_fake_script() -- PFmaster.tip 
 	local script = Instance.new('LocalScript', PFmaster)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1097,16 +1097,16 @@ local function NZCIMRK_fake_script() -- PFmaster.tip
 		script.Parent.Text = "PFmaster Gui"
 	end)
 end
-coroutine.wrap(NZCIMRK_fake_script)()
-local function XAOXH_fake_script() -- PFmaster.function 
+coroutine.wrap(ZITSQ_fake_script)()
+local function LLIUSWV_fake_script() -- PFmaster.function 
 	local script = Instance.new('LocalScript', PFmaster)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/URSTqphn"))()
 	end)
 end
-coroutine.wrap(XAOXH_fake_script)()
-local function GZFRQDW_fake_script() -- esp.tip 
+coroutine.wrap(LLIUSWV_fake_script)()
+local function BHTNMXA_fake_script() -- esp.tip 
 	local script = Instance.new('LocalScript', esp)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1120,8 +1120,8 @@ local function GZFRQDW_fake_script() -- esp.tip
 		script.Parent.Text = "Esp"
 	end)
 end
-coroutine.wrap(GZFRQDW_fake_script)()
-local function LWPI_fake_script() -- esp.function 
+coroutine.wrap(BHTNMXA_fake_script)()
+local function WZBPKR_fake_script() -- esp.function 
 	local script = Instance.new('LocalScript', esp)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1130,8 +1130,8 @@ local function LWPI_fake_script() -- esp.function
 	
 	end)
 end
-coroutine.wrap(LWPI_fake_script)()
-local function MMDH_fake_script() -- Admin.tip 
+coroutine.wrap(WZBPKR_fake_script)()
+local function XIAWX_fake_script() -- Admin.tip 
 	local script = Instance.new('LocalScript', Admin)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1145,16 +1145,16 @@ local function MMDH_fake_script() -- Admin.tip
 		script.Parent.Text = "Reviz Admin"
 	end)
 end
-coroutine.wrap(MMDH_fake_script)()
-local function SSXFM_fake_script() -- Admin.function 
+coroutine.wrap(XIAWX_fake_script)()
+local function PILSV_fake_script() -- Admin.function 
 	local script = Instance.new('LocalScript', Admin)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS", true))()
 	end)
 end
-coroutine.wrap(SSXFM_fake_script)()
-local function ETFRSP_fake_script() -- Dex.tip 
+coroutine.wrap(PILSV_fake_script)()
+local function GRQA_fake_script() -- Dex.tip 
 	local script = Instance.new('LocalScript', Dex)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1168,16 +1168,16 @@ local function ETFRSP_fake_script() -- Dex.tip
 		script.Parent.Text = "Dex"
 	end)
 end
-coroutine.wrap(ETFRSP_fake_script)()
-local function CRLMAWV_fake_script() -- Dex.function 
+coroutine.wrap(GRQA_fake_script)()
+local function FDPTFJ_fake_script() -- Dex.function 
 	local script = Instance.new('LocalScript', Dex)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer%20V2.txt", true))()
 	end)
 end
-coroutine.wrap(CRLMAWV_fake_script)()
-local function FGJNZ_fake_script() -- Sniper.tip 
+coroutine.wrap(FDPTFJ_fake_script)()
+local function ZGVXC_fake_script() -- Sniper.tip 
 	local script = Instance.new('LocalScript', Sniper)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1191,16 +1191,16 @@ local function FGJNZ_fake_script() -- Sniper.tip
 		script.Parent.Text = "Stream Sniper"
 	end)
 end
-coroutine.wrap(FGJNZ_fake_script)()
-local function DOZG_fake_script() -- Sniper.function 
+coroutine.wrap(ZGVXC_fake_script)()
+local function MLPSIWA_fake_script() -- Sniper.function 
 	local script = Instance.new('LocalScript', Sniper)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/syngp/SynapseX/master/Synapse%20Scripts/StreamSniper.lua", true))()
 	end)
 end
-coroutine.wrap(DOZG_fake_script)()
-local function PZTRF_fake_script() -- About.tip 
+coroutine.wrap(MLPSIWA_fake_script)()
+local function PPDMARG_fake_script() -- About.tip 
 	local script = Instance.new('LocalScript', About)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1214,8 +1214,8 @@ local function PZTRF_fake_script() -- About.tip
 		script.Parent.Text = "About"
 	end)
 end
-coroutine.wrap(PZTRF_fake_script)()
-local function OOLMFKW_fake_script() -- About.function 
+coroutine.wrap(PPDMARG_fake_script)()
+local function CDEGQX_fake_script() -- About.function 
 	local script = Instance.new('LocalScript', About)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1223,8 +1223,8 @@ local function OOLMFKW_fake_script() -- About.function
 		script.Parent.Parent.Parent.Parent.Parent.main.Visible = false
 	end)
 end
-coroutine.wrap(OOLMFKW_fake_script)()
-local function EALCO_fake_script() -- question.tip 
+coroutine.wrap(CDEGQX_fake_script)()
+local function VBMBPO_fake_script() -- question.tip 
 	local script = Instance.new('LocalScript', question)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1238,8 +1238,8 @@ local function EALCO_fake_script() -- question.tip
 		script.Parent.Text = "Why are some scripts not working?"
 	end)
 end
-coroutine.wrap(EALCO_fake_script)()
-local function PJEZ_fake_script() -- question.function 
+coroutine.wrap(VBMBPO_fake_script)()
+local function HTSAGG_fake_script() -- question.function 
 	local script = Instance.new('LocalScript', question)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1247,8 +1247,8 @@ local function PJEZ_fake_script() -- question.function
 		script.Parent.Parent.Parent.Parent.Parent.Question.Visible = true
 	end)
 end
-coroutine.wrap(PJEZ_fake_script)()
-local function BTUZR_fake_script() -- next.LocalScript 
+coroutine.wrap(HTSAGG_fake_script)()
+local function BGPZEW_fake_script() -- next.LocalScript 
 	local script = Instance.new('LocalScript', next)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1264,8 +1264,8 @@ local function BTUZR_fake_script() -- next.LocalScript
 		
 	end)
 end
-coroutine.wrap(BTUZR_fake_script)()
-local function UXNOP_fake_script() -- name_2.Detect 
+coroutine.wrap(BGPZEW_fake_script)()
+local function XXRGQ_fake_script() -- name_2.Detect 
 	local script = Instance.new('LocalScript', name_2)
 
 	if game.PlaceId  == 142823291 then
@@ -1274,8 +1274,8 @@ local function UXNOP_fake_script() -- name_2.Detect
 	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
 	end
 end
-coroutine.wrap(UXNOP_fake_script)()
-local function DLSM_fake_script() -- Gui_4.tip 
+coroutine.wrap(XXRGQ_fake_script)()
+local function RXYGQT_fake_script() -- Gui_4.tip 
 	local script = Instance.new('LocalScript', Gui_4)
 
 	
@@ -1290,16 +1290,16 @@ local function DLSM_fake_script() -- Gui_4.tip
 		script.Parent.Text = "Gui"
 	end)
 end
-coroutine.wrap(DLSM_fake_script)()
-local function WEZK_fake_script() -- Gui_4.function 
+coroutine.wrap(RXYGQT_fake_script)()
+local function EMWLYT_fake_script() -- Gui_4.function 
 	local script = Instance.new('LocalScript', Gui_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/CVjjtGkF", true))()
 	end)
 end
-coroutine.wrap(WEZK_fake_script)()
-local function BIUYNPH_fake_script() -- Knife.tip 
+coroutine.wrap(EMWLYT_fake_script)()
+local function UAYCD_fake_script() -- Knife.tip 
 	local script = Instance.new('LocalScript', Knife)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1313,8 +1313,8 @@ local function BIUYNPH_fake_script() -- Knife.tip
 		script.Parent.Text = "Xbox Knife"
 	end)
 end
-coroutine.wrap(BIUYNPH_fake_script)()
-local function ZZLTV_fake_script() -- Knife.function 
+coroutine.wrap(UAYCD_fake_script)()
+local function JOEGYF_fake_script() -- Knife.function 
 	local script = Instance.new('LocalScript', Knife)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1322,8 +1322,8 @@ local function ZZLTV_fake_script() -- Knife.function
 	Event:FireServer(A_1)
 	end)
 end
-coroutine.wrap(ZZLTV_fake_script)()
-local function OZROWK_fake_script() -- Name_10.Detect 
+coroutine.wrap(JOEGYF_fake_script)()
+local function XVMZIH_fake_script() -- Name_10.Detect 
 	local script = Instance.new('LocalScript', Name_10)
 
 	if game.PlaceId  == 183364845 then
@@ -1332,13 +1332,13 @@ local function OZROWK_fake_script() -- Name_10.Detect
 	script.Parent.TextColor3 = Color3.new(255, 255, 255)	
 	end
 end
-coroutine.wrap(OZROWK_fake_script)()
-local function UCHXV_fake_script() -- Autofarm_2.tip 
+coroutine.wrap(XVMZIH_fake_script)()
+local function KGNQCI_fake_script() -- Autofarm_2.tip 
 	local script = Instance.new('LocalScript', Autofarm_2)
 
 	
 	script.Parent.MouseEnter:Connect(function()
-		script.Parent.Text = "Made by me so its only in haunted hub"
+		script.Parent.Text = "Only in Haunted Hub"
 	end)
 	
 	
@@ -1348,12 +1348,12 @@ local function UCHXV_fake_script() -- Autofarm_2.tip
 		script.Parent.Text = "(Exclusive) Autofarm"
 	end)
 end
-coroutine.wrap(UCHXV_fake_script)()
-local function EQMSKH_fake_script() -- Autofarm_2.function 
+coroutine.wrap(KGNQCI_fake_script)()
+local function KYFX_fake_script() -- Autofarm_2.function 
 	local script = Instance.new('LocalScript', Autofarm_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		-- Gui to Lua
+	-- Gui to Lua
 	-- Version: 3.2
 	
 	-- Instances:
@@ -1368,9 +1368,10 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	local Maxnum = Instance.new("TextLabel")
 	local num = Instance.new("TextLabel")
 	local minus = Instance.new("TextButton")
-	local plus = Instance.new("TextButton")
+	local X = Instance.new("TextButton")
 	local Reset = Instance.new("TextButton")
 	local inf = Instance.new("TextButton")
+	local plus = Instance.new("TextButton")
 	
 	--Properties:
 	
@@ -1382,21 +1383,24 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	Frame.Parent = speedrun
 	Frame.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 	Frame.BackgroundTransparency = 0.200
+	Frame.BorderSizePixel = 0
 	Frame.Position = UDim2.new(0.5, -328, 0.5, -110)
 	Frame.Size = UDim2.new(0, 368, 0, 158)
 	
 	TextLabel.Parent = Frame
 	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel.BackgroundTransparency = 1.000
-	TextLabel.Size = UDim2.new(0, 368, 0, 43)
+	TextLabel.BorderSizePixel = 0
+	TextLabel.Size = UDim2.new(0, 335, 0, 43)
 	TextLabel.Font = Enum.Font.SourceSans
-	TextLabel.Text = "Speed Run 4  Auto Complete    By: Dragonxd09#5612"
+	TextLabel.Text = "Speed Run 4  AutoFarm By: Dragonxd09#5612"
 	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel.TextSize = 20.000
 	
 	TextLabel_2.Parent = Frame
 	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel_2.BackgroundTransparency = 1.000
+	TextLabel_2.BorderSizePixel = 0
 	TextLabel_2.Position = UDim2.new(0, 0, 0.271639705, 0)
 	TextLabel_2.Size = UDim2.new(0, 229, 0, 43)
 	TextLabel_2.Font = Enum.Font.SourceSans
@@ -1408,6 +1412,7 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	start.Parent = Frame
 	start.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	start.BackgroundTransparency = 1.000
+	start.BorderSizePixel = 0
 	start.Position = UDim2.new(0, 0, 0.726833701, 0)
 	start.Size = UDim2.new(0, 124, 0, 43)
 	start.Font = Enum.Font.SourceSans
@@ -1419,6 +1424,7 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	min.Parent = Frame
 	min.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	min.BackgroundTransparency = 1.000
+	min.BorderSizePixel = 0
 	min.Position = UDim2.new(0, 0, 0.543791592, 0)
 	min.Size = UDim2.new(0, 139, 0, 43)
 	min.Font = Enum.Font.SourceSans
@@ -1430,6 +1436,7 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	TextLabel_3.Parent = Frame
 	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel_3.BackgroundTransparency = 1.000
+	TextLabel_3.BorderSizePixel = 0
 	TextLabel_3.Position = UDim2.new(0.309782594, 0, 0.543791592, 0)
 	TextLabel_3.Size = UDim2.new(0, 139, 0, 43)
 	TextLabel_3.Font = Enum.Font.SourceSans
@@ -1441,6 +1448,7 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	Maxnum.Parent = Frame
 	Maxnum.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Maxnum.BackgroundTransparency = 1.000
+	Maxnum.BorderSizePixel = 0
 	Maxnum.Position = UDim2.new(0.622282624, 0, 0.543791592, 0)
 	Maxnum.Size = UDim2.new(0, 139, 0, 43)
 	Maxnum.Font = Enum.Font.SourceSans
@@ -1452,6 +1460,7 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	num.Parent = Frame
 	num.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	num.BackgroundTransparency = 1.000
+	num.BorderSizePixel = 0
 	num.Position = UDim2.new(0.652173936, 0, 0.341772139, 0)
 	num.Size = UDim2.new(0, 102, 0, 25)
 	num.Font = Enum.Font.SourceSans
@@ -1465,6 +1474,7 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	minus.Parent = Frame
 	minus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	minus.BackgroundTransparency = 1.000
+	minus.BorderSizePixel = 0
 	minus.Position = UDim2.new(0.554347813, 0, 0.322784811, 0)
 	minus.Size = UDim2.new(0, 55, 0, 26)
 	minus.Font = Enum.Font.SourceSans
@@ -1475,24 +1485,25 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	minus.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
 	minus.TextWrapped = true
 	
-	plus.Name = "plus"
-	plus.Parent = Frame
-	plus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	plus.BackgroundTransparency = 1.000
-	plus.Position = UDim2.new(0.875, 0, 0.341772139, 0)
-	plus.Size = UDim2.new(0, 46, 0, 26)
-	plus.Font = Enum.Font.SourceSans
-	plus.Text = "+"
-	plus.TextColor3 = Color3.fromRGB(255, 255, 255)
-	plus.TextScaled = true
-	plus.TextSize = 14.000
-	plus.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
-	plus.TextWrapped = true
+	X.Name = "X"
+	X.Parent = Frame
+	X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	X.BackgroundTransparency = 1.000
+	X.BorderSizePixel = 0
+	X.Position = UDim2.new(0.875, 0, 0.0379748754, 0)
+	X.Size = UDim2.new(0, 46, 0, 29)
+	X.Font = Enum.Font.SourceSans
+	X.Text = "X"
+	X.TextColor3 = Color3.fromRGB(255, 0, 4)
+	X.TextSize = 20.000
+	X.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+	X.TextWrapped = true
 	
 	Reset.Name = "Reset"
 	Reset.Parent = Frame
 	Reset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Reset.BackgroundTransparency = 1.000
+	Reset.BorderSizePixel = 0
 	Reset.Position = UDim2.new(0.337628901, 0, 0.726833701, 0)
 	Reset.Size = UDim2.new(0, 115, 0, 43)
 	Reset.Font = Enum.Font.SourceSans
@@ -1504,6 +1515,7 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	inf.Parent = Frame
 	inf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	inf.BackgroundTransparency = 1.000
+	inf.BorderSizePixel = 0
 	inf.Position = UDim2.new(0.685454965, 0, 0.726833701, 0)
 	inf.Size = UDim2.new(0, 115, 0, 43)
 	inf.Font = Enum.Font.SourceSans
@@ -1511,9 +1523,24 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 	inf.TextColor3 = Color3.fromRGB(255, 255, 255)
 	inf.TextSize = 20.000
 	
+	plus.Name = "plus"
+	plus.Parent = Frame
+	plus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	plus.BackgroundTransparency = 1.000
+	plus.BorderSizePixel = 0
+	plus.Position = UDim2.new(0.875, 0, 0.341772139, 0)
+	plus.Size = UDim2.new(0, 46, 0, 26)
+	plus.Font = Enum.Font.SourceSans
+	plus.Text = "+"
+	plus.TextColor3 = Color3.fromRGB(255, 255, 255)
+	plus.TextScaled = true
+	plus.TextSize = 14.000
+	plus.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+	plus.TextWrapped = true
+	
 	-- Scripts:
 	
-	local function GUXO_fake_script() -- Frame.LocalScript 
+	local function HFTHT_fake_script() -- Frame.LocalScript 
 		local script = Instance.new('LocalScript', Frame)
 	
 		local number = 0
@@ -1549,7 +1576,9 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 		script.Parent.min.Text = runs	
 		end)
 		
-		
+		script.Parent.X.MouseButton1Click:Connect(function()
+			script.Parent.Parent:Destroy()
+		end)
 		
 		plus.MouseButton1Click:Connect(function()
 			number = number + 1
@@ -1678,13 +1707,13 @@ local function EQMSKH_fake_script() -- Autofarm_2.function
 			end
 		end)
 	end
-	coroutine.wrap(GUXO_fake_script)()
+	coroutine.wrap(HFTHT_fake_script)()
 	
 	
 	end)
 end
-coroutine.wrap(EQMSKH_fake_script)()
-local function CKSLKRR_fake_script() -- Ok.function 
+coroutine.wrap(KYFX_fake_script)()
+local function YLTBA_fake_script() -- Ok.function 
 	local script = Instance.new('LocalScript', Ok)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1692,14 +1721,14 @@ local function CKSLKRR_fake_script() -- Ok.function
 		script.Parent.Parent.Parent.Parent.About.Visible = false
 	end)
 end
-coroutine.wrap(CKSLKRR_fake_script)()
-local function STLK_fake_script() -- Main.LocalScript 
+coroutine.wrap(YLTBA_fake_script)()
+local function IKJS_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.ResetOnSpawn = false
 end
-coroutine.wrap(STLK_fake_script)()
-local function WDXKTR_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(IKJS_fake_script)()
+local function SBZGR_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1707,10 +1736,10 @@ local function WDXKTR_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Parent.main.Visible = true
 	end)
 end
-coroutine.wrap(WDXKTR_fake_script)()
-local function QDCMC_fake_script() -- Main.destroy 
+coroutine.wrap(SBZGR_fake_script)()
+local function ECDYA_fake_script() -- Main.destroy 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.Parent.Loading:Destroy()
 end
-coroutine.wrap(QDCMC_fake_script)()
+coroutine.wrap(ECDYA_fake_script)()
